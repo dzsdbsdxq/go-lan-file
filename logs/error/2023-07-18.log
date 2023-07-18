@@ -1,0 +1,3 @@
+2023-07-18 20:03:00	FATAL	share.ac.cn/main.go:38	main.main.func1	listen: listen tcp 127.0.0.1:9090: bind: address already in use
+
+2023-07-18 20:12:26	ERROR	cache/file_cache.go:30	share.ac.cn/cache.GetFileOnlineInfo	GetFileOnlineInfo: xxxxx, 错误信息: redis: nil

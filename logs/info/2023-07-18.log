@@ -1,0 +1,193 @@
+2023-07-18 20:03:00	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:03:00	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:03:00	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:9090
+2023-07-18 20:03:53	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:03:53	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:03:53	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:06:04	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:06:04	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:06:08	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:06:08	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:06:08	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:07:31	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:07:31	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:07:34	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:07:34	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:07:34	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:09:50	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:09:50	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:09:52	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:09:52	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:09:52	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:09:55	INFO	cache/file_cache.go:30	share.ac.cn/cache.GetFileOnlineInfo	GetFileOnlineInfo: xxxxx, 错误信息: redis: nil
+2023-07-18 20:11:27	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:11:27	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:11:29	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:11:29	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:11:29	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:11:32	INFO	cache/file_cache.go:30	share.ac.cn/cache.GetFileOnlineInfo	GetFileOnlineInfo: xxxxx, 错误信息: redis: nil
+2023-07-18 20:11:33	INFO	cache/file_cache.go:30	share.ac.cn/cache.GetFileOnlineInfo	GetFileOnlineInfo: xxxxx, 错误信息: redis: nil
+2023-07-18 20:12:21	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:12:21	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:12:22	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:12:22	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:12:22	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:50:32	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:50:32	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:50:36	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:50:36	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:50:36	INFO	share.ac.cn/main.go:42	main.main	Server is running at localhost:10000
+2023-07-18 20:53:30	INFO	share.ac.cn/main.go:52	main.main	Shutting down server...
+2023-07-18 20:53:30	INFO	share.ac.cn/main.go:62	main.main	Server exiting!
+2023-07-18 20:53:33	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:53:33	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:53:33	INFO	share.ac.cn/main.go:47	main.main	Server is running at localhost:10000
+2023-07-18 20:53:36	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:54:06	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:54:36	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:54:40	INFO	share.ac.cn/main.go:57	main.main	Shutting down server...
+2023-07-18 20:54:40	INFO	share.ac.cn/main.go:67	main.main	Server exiting!
+2023-07-18 20:54:43	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:54:43	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:54:43	INFO	share.ac.cn/main.go:47	main.main	Server is running at localhost:10000
+2023-07-18 20:54:46	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:55:04	INFO	share.ac.cn/main.go:57	main.main	Shutting down server...
+2023-07-18 20:55:04	INFO	share.ac.cn/main.go:67	main.main	Server exiting!
+2023-07-18 20:55:06	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:55:06	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:55:06	INFO	share.ac.cn/main.go:47	main.main	Server is running at localhost:10000
+2023-07-18 20:55:09	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:55:39	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:56:09	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:56:39	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:57:09	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:57:39	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:58:03	INFO	share.ac.cn/main.go:57	main.main	Shutting down server...
+2023-07-18 20:58:03	INFO	share.ac.cn/main.go:67	main.main	Server exiting!
+2023-07-18 20:58:40	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 20:58:40	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 20:58:40	INFO	share.ac.cn/main.go:47	main.main	Server is running at localhost:10000
+2023-07-18 20:58:43	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:59:13	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 20:59:43	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:00:13	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:00:43	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:01:13	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:01:43	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:02:13	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:02:43	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:03:13	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 21:03:43	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:52:21	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-18 22:52:21	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-18 22:52:21	INFO	share.ac.cn/main.go:47	main.main	Server is running at localhost:10000
+2023-07-18 22:52:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:52:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:53:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:53:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:54:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:54:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:55:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:55:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:56:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:56:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:57:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:57:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:58:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:58:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:59:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 22:59:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:00:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:00:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:01:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:01:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:02:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:02:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:03:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:03:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:04:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:04:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:05:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:05:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:06:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:06:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:07:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:07:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:08:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:08:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:09:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:09:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:10:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:10:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:11:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:11:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:12:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:12:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:13:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:13:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:14:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:14:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:15:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:15:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:16:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:16:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:17:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:17:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:18:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:18:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:19:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:19:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:20:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:20:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:21:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:21:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:22:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:22:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:23:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:23:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:24:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:24:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:25:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:25:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:26:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:26:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:27:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:27:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:28:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:28:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:29:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:29:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:30:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:30:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:31:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:31:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:32:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:32:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:33:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:33:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:34:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:34:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:35:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:35:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:36:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:36:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:37:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:37:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:38:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:38:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:39:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:39:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:40:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:40:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:41:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:41:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:42:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:42:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:43:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:43:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:44:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:44:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:45:24	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-18 23:45:54	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
+2023-07-19 01:25:29	INFO	share.ac.cn/main.go:57	main.main	Shutting down server...
+2023-07-19 01:25:29	INFO	share.ac.cn/main.go:67	main.main	Server exiting!
