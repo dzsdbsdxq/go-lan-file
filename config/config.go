@@ -46,6 +46,7 @@ func InitConfig() {
 
 type config struct {
 	System    *SystemConfig    `mapstructure:"system" json:"system"`
+	File      *FileConfig      `mapstructure:"file" json:"file"`
 	Logs      *LogsConfig      `mapstructure:"logs" json:"logs"`
 	Redis     *RedisConfig     `mapstructure:"redis" json:"redis"`
 	RateLimit *RateLimitConfig `mapstructure:"rate-limit" json:"rateLimit"`
@@ -55,6 +56,16 @@ type SystemConfig struct {
 	Port          int    `mapstructure:"port" json:"port"`
 	Host          string `mapstructure:"host" json:"host"`
 	UploadBaseUrl string `mapstructure:"upload-base-url" json:"upload-base-url"`
+}
+type FileConfig struct {
+	AllowMaxSize        int    `mapstructure:"allow-max-size" json:"allow-max-size"`
+	DownloadTokenExpire int    `mapstructure:"download-token-expire" json:"download-token-expire"`
+	ReNameFile          bool   `mapstructure:"rename-file" json:"rename-file"`
+	DownloadUseToken    bool   `mapstructure:"download-use-token" json:"download-use-token"`
+	EnableDistinctFile  bool   `mapstructure:"enable-distinct-file" json:"enable-distinct-file"`
+	FileSumArithmetic   string `mapstructure:"file-sum-arithmetic" json:"file-sum-arithmetic"`
+	AllowExt            string `mapstructure:"allow-extensions" json:"allow-extensions"`
+	StoreBasePath       string `mapstructure:"store-base-path" json:"store-base-path"`
 }
 type LogsConfig struct {
 	Level      zapcore.Level `mapstructure:"level" json:"level"`
