@@ -1,0 +1,4 @@
+2023-07-19 09:27:39	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-19 09:27:39	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-19 09:27:39	INFO	go-lan-file/main.go:47	main.main	Server is running at localhost:10000
+2023-07-19 09:27:42	INFO	task/file_clean_task.go:26	share.ac.cn/services/task.cleanExpireFile	定时任务，清理过期文件
