@@ -9,7 +9,7 @@ func InitFileRouters(r *gin.RouterGroup) gin.IRoutes {
 	fileController := controller.NewFileController()
 	router := r.Group("/file")
 	{
-		router.POST("/upload", fileController.UploadFile)
+		router.Any("/upload", fileController.UploadFile)
 		router.GET("/download/:shareId", fileController.DownloadFile)
 		//router.PATCH("/update/:addressId", addressController.UpdateAddressById)
 		//router.DELETE("/delete/batch", addressController.BatchDeleteAddressByIds)
