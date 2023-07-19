@@ -12,7 +12,7 @@ file:
   # 文件上传最大限制
   allow-max-size: 1024
   # 允许可以上传的文件后缀名，如jpg,jpeg,png等。留空允许所有。
-  allow-extensions: []
+  allow-extensions:
   # 是否自动重命名,默认不自动重命名,使用原文件名
   rename-file: false
   # 下载是否需带token,真假
