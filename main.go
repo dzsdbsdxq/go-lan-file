@@ -9,7 +9,6 @@ import (
 	"share.ac.cn/common"
 	"share.ac.cn/config"
 	"share.ac.cn/routers"
-	"share.ac.cn/services/task"
 	"syscall"
 	"time"
 )
@@ -19,11 +18,15 @@ func main() {
 	config.InitConfig()
 	// 初始化日志
 	common.InitLogger()
+	// 初始化Validator数据校验
+	common.InitValidate()
+	//初始化sqlite3数据库
+	common.InitDataBase()
 	//初始化Redis
 	common.InitRedisClient()
 
 	// 定时任务
-	task.CleanExpireFileInit()
+	//task.CleanExpireFileInit()
 
 	// 注册所有路由
 	r := routers.InitRoutes()
