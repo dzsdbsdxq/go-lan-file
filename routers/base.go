@@ -29,9 +29,8 @@ func InitRoutes() *gin.Engine {
 	apiGroup := r.Group("/")
 
 	// 注册路由
-	//InitTemplatesRoutes(r)
-	//InitBaseRoutes(apiGroup, authMiddleware)              // 注册基础路由, 不需要jwt认证中间件,不需要casbin中间件
 	InitFileRouters(apiGroup) // 注册文件路由, casbin鉴权中间件
+	//InitTusdRouters(apiGroup)
 
 	common.Log.Info("初始化路由完成！")
 	return r

@@ -24,10 +24,10 @@ func main() {
 	common.InitDataBase()
 	//初始化Redis
 	common.InitRedisClient()
-
 	// 定时任务
 	//task.CleanExpireFileInit()
-
+	//初始化Tusd服务
+	common.NewTusdServer()
 	// 注册所有路由
 	r := routers.InitRoutes()
 

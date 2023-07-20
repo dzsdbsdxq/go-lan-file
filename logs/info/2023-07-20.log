@@ -1,0 +1,300 @@
+2023-07-20 16:05:37	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:05:37	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:05:37	INFO	routers/base.go:40	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:05:37	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:09:05	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:09:05	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:09:11	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:09:11	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:09:11	INFO	routers/base.go:40	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:09:11	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:10:55	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:10:55	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:11:12	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:11:12	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:11:12	INFO	routers/base.go:40	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:11:12	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:14:28	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:14:28	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:14:31	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:14:31	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:14:31	INFO	routers/base.go:40	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:14:31	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:16:33	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:16:33	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:16:35	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:16:35	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:16:35	INFO	routers/base.go:41	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:16:35	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:19:10	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:19:10	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:19:15	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:19:15	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:19:15	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:19:15	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:20:23	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:20:23	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:20:28	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:20:28	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:20:28	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:20:28	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:21:26	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:21:26	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:21:34	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:21:34	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:21:34	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:21:34	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:34:17	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:34:17	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:34:21	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:34:21	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:34:21	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:34:21	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:42:52	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:42:52	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:42:55	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:42:55	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:42:55	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:42:55	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:43:57	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:43:57	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:52:15	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:52:15	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:52:15	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:52:15	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:53:10	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:53:10	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 16:53:13	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 16:53:13	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 16:53:13	INFO	routers/base.go:37	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 16:53:13	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 16:59:44	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 16:59:44	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:01:49	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:01:49	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:01:49	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:01:49	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:03:26	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:03:26	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:03:29	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:03:29	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:03:29	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:03:29	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:06:35	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:06:35	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:06:43	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:06:43	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:06:43	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:06:43	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:08:43	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:08:43	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:14:20	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:14:20	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:14:20	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:14:20	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:17:38	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:17:38	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:17:42	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:17:42	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:17:42	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:17:42	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:18:32	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:18:32	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:18:35	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:18:35	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:18:35	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:18:35	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:20:51	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:20:51	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:20:53	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:20:53	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:20:53	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:20:53	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:22:56	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:22:56	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:22:59	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:22:59	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:22:59	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:22:59	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:23:26	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:23:26	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:23:28	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:23:28	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:23:28	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:23:28	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:24:14	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:24:14	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:24:19	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:24:19	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:24:19	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:24:19	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:24:42	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:24:42	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:24:44	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:24:44	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:24:44	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:24:44	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:27:09	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:27:09	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:27:13	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:27:13	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:27:13	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:27:13	INFO	go-lan-file/main.go:52	main.main	Server is running at localhost:10000
+2023-07-20 17:30:26	INFO	go-lan-file/main.go:62	main.main	Shutting down server...
+2023-07-20 17:30:26	INFO	go-lan-file/main.go:72	main.main	Server exiting!
+2023-07-20 17:30:29	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:30:29	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:30:29	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:30:29	INFO	go-lan-file/main.go:51	main.main	Server is running at localhost:10000
+2023-07-20 17:31:25	INFO	go-lan-file/main.go:61	main.main	Shutting down server...
+2023-07-20 17:31:25	INFO	go-lan-file/main.go:71	main.main	Server exiting!
+2023-07-20 17:31:27	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:31:27	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:31:27	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:31:27	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:46:37	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:46:37	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:46:41	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:46:41	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:46:41	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:46:41	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:48:19	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:48:19	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:48:23	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:48:23	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:48:23	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:48:23	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:49:09	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:49:09	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:49:11	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:49:11	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:49:11	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:49:11	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:51:38	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:51:38	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:51:41	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:51:41	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:51:41	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:51:41	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:52:00	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:52:00	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:52:02	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:52:02	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:52:02	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:52:02	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:53:51	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:53:51	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:53:54	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:53:54	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:53:54	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:53:54	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 17:54:38	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 17:54:38	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 17:54:40	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 17:54:40	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 17:54:40	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 17:54:40	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:06:11	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:06:24	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:06:24	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:06:24	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:06:24	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:10:28	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:11:01	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:11:01	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:11:01	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:11:01	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:15:32	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:15:32	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:15:37	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:15:37	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:15:37	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:15:37	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:21:05	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:21:05	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:21:10	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:21:10	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:21:10	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:21:10	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:24:51	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:24:51	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:27:50	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:27:50	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:27:50	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:27:50	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:29:10	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:29:10	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:29:13	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:29:13	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:29:13	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:29:13	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:32:20	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:32:20	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:32:23	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:32:23	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:32:23	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:32:23	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:44:15	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:44:25	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:44:25	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:44:25	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:44:25	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:46:04	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:46:11	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:46:11	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:46:11	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:46:11	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:47:55	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:47:55	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:47:57	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:47:57	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:47:57	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:47:57	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:52:33	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 18:52:33	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 18:55:42	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:55:42	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:55:42	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:55:42	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 18:56:22	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 18:56:22	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 18:56:22	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 18:56:22	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 19:03:26	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 19:03:26	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 19:03:30	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 19:03:30	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 19:03:30	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 19:03:30	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 19:04:30	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 19:04:30	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 19:04:32	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 19:04:32	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 19:04:32	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 19:04:32	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 19:04:59	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 19:04:59	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 19:05:02	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 19:05:02	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 19:05:02	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 19:05:02	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 19:05:58	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 19:05:58	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 19:06:00	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 19:06:00	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 19:06:00	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 19:06:00	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 19:06:23	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 19:06:23	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 19:06:26	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 19:06:26	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 19:06:26	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 19:06:26	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 19:08:07	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 19:08:07	INFO	go-lan-file/main.go:70	main.main	Server exiting!
+2023-07-20 19:08:09	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-20 19:08:09	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-20 19:08:09	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-20 19:08:09	INFO	go-lan-file/main.go:50	main.main	Server is running at localhost:10000
+2023-07-20 20:53:37	INFO	go-lan-file/main.go:60	main.main	Shutting down server...
+2023-07-20 20:53:37	INFO	go-lan-file/main.go:70	main.main	Server exiting!
