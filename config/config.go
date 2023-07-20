@@ -54,6 +54,7 @@ type config struct {
 type SystemConfig struct {
 	Mode          string `mapstructure:"mode" json:"mode"`
 	Port          int    `mapstructure:"port" json:"port"`
+	WsPort        int    `mapstructure:"ws-port" json:"ws-port"`
 	Host          string `mapstructure:"host" json:"host"`
 	UploadBaseUrl string `mapstructure:"upload-base-url" json:"upload-base-url"`
 }

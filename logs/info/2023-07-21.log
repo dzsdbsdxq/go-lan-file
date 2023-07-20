@@ -1,0 +1,70 @@
+2023-07-21 00:06:03	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 00:06:03	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 00:06:03	INFO	routers/base.go:35	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 00:06:03	INFO	share.ac.cn/main.go:53	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 00:19:41	INFO	share.ac.cn/main.go:63	main.main	Shutting down server...
+2023-07-21 00:19:41	INFO	share.ac.cn/main.go:73	main.main	Server exiting!
+2023-07-21 00:19:47	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 00:19:47	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 00:19:47	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 00:19:47	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:07:57	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:07:57	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 01:09:25	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 01:09:25	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 01:09:25	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 01:09:25	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:11:49	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:11:49	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 01:11:53	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 01:11:53	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 01:11:53	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 01:11:53	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:14:05	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:14:05	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 01:14:07	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 01:14:07	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 01:14:07	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 01:14:07	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:14:41	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 01:14:41	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:42834
+2023-07-21 01:20:04	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:20:04	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 01:20:07	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 01:20:07	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 01:20:07	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 01:20:07	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:20:17	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 01:20:17	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:49462
+2023-07-21 01:20:20	INFO	service/client.go:45	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [0b4bf866-adf1-4cbe-b99c-4b5df4ccd317] disconnect
+2023-07-21 01:20:20	INFO	service/client.go:70	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [%s] disconnect0b4bf866-adf1-4cbe-b99c-4b5df4ccd317
+2023-07-21 01:20:20	INFO	service/client.go:73	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [%s] disconnect err: %s0b4bf866-adf1-4cbe-b99c-4b5df4ccd317close tcp 127.0.0.1:10000->127.0.0.1:49462: use of closed network connection
+2023-07-21 01:20:44	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 01:20:44	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:53058
+2023-07-21 01:22:21	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:22:21	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 01:22:24	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 01:22:24	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 01:22:24	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 01:22:24	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:22:29	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 01:22:29	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:45028
+2023-07-21 01:22:35	INFO	service/client.go:84	share.ac.cn/services/websocket/service.(*Client).Write	client [%s] write message: %sf5d3fe5a-49a0-4e1e-aa94-53c287d08945{"222":"dddsfs"}
+2023-07-21 01:22:39	INFO	service/client.go:84	share.ac.cn/services/websocket/service.(*Client).Write	client [%s] write message: %sf5d3fe5a-49a0-4e1e-aa94-53c287d08945{"222":"dddsfs"}
+2023-07-21 01:23:16	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:23:16	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 01:23:19	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 01:23:19	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 01:23:19	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 01:23:19	INFO	share.ac.cn/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 01:23:23	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 01:23:23	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:51156
+2023-07-21 01:23:26	INFO	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [31be3274-ec5b-4d5e-a3b0-644332e58881] receive message: {"222":"dddsfs"}
+2023-07-21 01:23:26	INFO	service/client.go:84	share.ac.cn/services/websocket/service.(*Client).Write	client [%s] write message: %s31be3274-ec5b-4d5e-a3b0-644332e58881{"222":"dddsfs"}
+2023-07-21 01:23:36	INFO	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [31be3274-ec5b-4d5e-a3b0-644332e58881] receive message: {"222":"dddsfs"}
+2023-07-21 01:23:36	INFO	service/client.go:84	share.ac.cn/services/websocket/service.(*Client).Write	client [%s] write message: %s31be3274-ec5b-4d5e-a3b0-644332e58881{"222":"dddsfs"}
+2023-07-21 01:23:42	INFO	service/client.go:45	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [31be3274-ec5b-4d5e-a3b0-644332e58881] disconnect
+2023-07-21 01:23:42	INFO	service/client.go:70	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [%s] disconnect31be3274-ec5b-4d5e-a3b0-644332e58881
+2023-07-21 01:23:42	INFO	service/client.go:73	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [%s] disconnect err: %s31be3274-ec5b-4d5e-a3b0-644332e58881close tcp 127.0.0.1:10000->127.0.0.1:51156: use of closed network connection
+2023-07-21 01:24:33	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
+2023-07-21 01:24:33	INFO	share.ac.cn/main.go:74	main.main	Server exiting!

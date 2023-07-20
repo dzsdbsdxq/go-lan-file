@@ -30,7 +30,8 @@ func InitRoutes() *gin.Engine {
 
 	// 注册路由
 	InitFileRouters(apiGroup) // 注册文件路由, casbin鉴权中间件
-	//InitTusdRouters(apiGroup)
+	InitApiRouters(apiGroup)
+	InitWebSocketRouters(apiGroup)
 
 	common.Log.Info("初始化路由完成！")
 	return r

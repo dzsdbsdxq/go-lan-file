@@ -2,9 +2,10 @@
 system:
   # 设定模式(debug/release/test,正式版改为release)
   mode: debug
-  host: localhost
+  host: 0.0.0.0
   # 程序监听端口
   port: 10000
+  ws-port: 10000
 
 file:
   # 文件根路径,如果为空，则默认以项目所在目录

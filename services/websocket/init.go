@@ -3,10 +3,10 @@ package websocket
 import (
 	"fmt"
 	"github.com/gorilla/websocket"
-	"github.com/spf13/viper"
 	"net/http"
 	"share.ac.cn/cache"
 	"share.ac.cn/common"
+	"share.ac.cn/config"
 	"share.ac.cn/model"
 	"time"
 )
@@ -55,11 +55,12 @@ func InRoomIds(roomId string) (inRoomId bool) {
 }
 
 func StartWebSocket() {
-	http.HandleFunc("/acc", webSocketFunc)
+
+	http.HandleFunc("/", webSocketFunc)
 	//添加处理程序
 	go clientManager.start()
-	wsBase := fmt.Sprintf("%s:%d", viper.GetString("socket.serverIp"), viper.GetInt("socket.serverPort"))
-	fmt.Println("监听socket服务", wsBase)
+	wsBase := fmt.Sprintf("%s:%d", config.Conf.System.Host, config.Conf.System.WsPort)
+	common.Log.Info("监听socket服务", wsBase)
 	http.ListenAndServe(wsBase, nil)
 }
 

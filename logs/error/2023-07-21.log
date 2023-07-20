@@ -1,0 +1,6 @@
+2023-07-21 01:13:40	ERROR	service/init.go:29	share.ac.cn/services/websocket/service.WebSocketFunc	websocket connect error: 
+2023-07-21 01:14:16	ERROR	service/init.go:29	share.ac.cn/services/websocket/service.WebSocketFunc	websocket connect error: 
+2023-07-21 01:20:20	ERROR	service/client.go:54	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:49462websocket: close 1000 (normal)
+2023-07-21 01:22:35	ERROR	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [%s] receive message: %sf5d3fe5a-49a0-4e1e-aa94-53c287d08945{"222":"dddsfs"}
+2023-07-21 01:22:39	ERROR	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [%s] receive message: %sf5d3fe5a-49a0-4e1e-aa94-53c287d08945{"222":"dddsfs"}
+2023-07-21 01:23:42	ERROR	service/client.go:54	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:51156websocket: close 1000 (normal)

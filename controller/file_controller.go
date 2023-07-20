@@ -5,7 +5,6 @@ import (
 	"github.com/gin-gonic/gin"
 	"share.ac.cn/common"
 	"share.ac.cn/repository"
-	"share.ac.cn/response"
 )
 
 type IFileController interface {
@@ -13,7 +12,6 @@ type IFileController interface {
 	HeadFile(c *gin.Context)
 	PatchFile(c *gin.Context)
 	GetFile(c *gin.Context)
-	DownloadFile(c *gin.Context)
 }
 type FileController struct {
 	fileRepository repository.IFileRepository
@@ -74,23 +72,6 @@ func (f *FileController) PatchFile(c *gin.Context) {
 func (f *FileController) GetFile(c *gin.Context) {
 	common.GetTusd().GetFile(c.Writer, c.Request)
 }
-
-func (f *FileController) DownloadFile(c *gin.Context) {
-	// 获取路径中的shareId
-	shareId := c.Param("shareId")
-	if shareId == "" {
-		response.Fail(c, nil, "分享ID不正确")
-		return
-	}
-	file, err := f.fileRepository.GetFileInfoByShareId(shareId)
-	if err != nil {
-		response.Fail(c, nil, err.Error())
-		return
-	}
-
-	common.Log.Info(file)
-}
-
 func NewFileController() IFileController {
 	return &FileController{
 		fileRepository: repository.NewFileRepository(),
