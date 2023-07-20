@@ -3,44 +3,47 @@ package controller
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/go-playground/validator/v10"
 	"share.ac.cn/common"
 	"share.ac.cn/repository"
-	"share.ac.cn/request"
 	"share.ac.cn/response"
-	"share.ac.cn/services/uploader"
 )
 
 type IFileController interface {
-	UploadFile(c *gin.Context)
+	PostFile(c *gin.Context)
+	HeadFile(c *gin.Context)
+	PatchFile(c *gin.Context)
+	GetFile(c *gin.Context)
 	DownloadFile(c *gin.Context)
 }
 type FileController struct {
 	fileRepository repository.IFileRepository
 }
 
-func (f *FileController) UploadFile(c *gin.Context) {
-
-	var req request.FileUploadRequest
-	// 参数绑定
-	if err := c.ShouldBind(&req); err != nil {
-		response.Fail(c, nil, err.Error())
-		return
-	}
-	fmt.Println(req)
-	// 参数校验
-	if err := common.Validate.Struct(&req); err != nil {
-		errStr := err.(validator.ValidationErrors)[0].Translate(common.Trans)
-		response.Fail(c, nil, errStr)
-		return
-	}
-	fmt.Println(req)
-
-	upload, err := uploader.NewFileUploadService().Upload(c, &req)
-	if err != nil {
-		return
-	}
-	fmt.Println(upload)
+func (f *FileController) PostFile(c *gin.Context) {
+	fmt.Println("ccc", c.Request)
+	c.Writer.Header().Set("aaa", "2322323232")
+	common.GetTusd().PostFile(c.Writer, c.Request)
+	//return common.GetTusd()
+	//var req request.FileUploadRequest
+	//// 参数绑定
+	//if err := c.ShouldBind(&req); err != nil {
+	//	response.Fail(c, nil, err.Error())
+	//	return
+	//}
+	//fmt.Println(req)
+	//// 参数校验
+	//if err := common.Validate.Struct(&req); err != nil {
+	//	errStr := err.(validator.ValidationErrors)[0].Translate(common.Trans)
+	//	response.Fail(c, nil, errStr)
+	//	return
+	//}
+	//fmt.Println(req)
+	//
+	//upload, err := uploader.NewFileUploadService().Upload(c, &req)
+	//if err != nil {
+	//	return
+	//}
+	//fmt.Println(upload)
 
 	//自动生成临时唯一房间号
 	//shareId := common.RandPass(4)
@@ -61,6 +64,15 @@ func (f *FileController) UploadFile(c *gin.Context) {
 	//if err != nil {
 	//	return
 	//}
+}
+func (f *FileController) HeadFile(c *gin.Context) {
+	common.GetTusd().HeadFile(c.Writer, c.Request)
+}
+func (f *FileController) PatchFile(c *gin.Context) {
+	common.GetTusd().PatchFile(c.Writer, c.Request)
+}
+func (f *FileController) GetFile(c *gin.Context) {
+	common.GetTusd().GetFile(c.Writer, c.Request)
 }
 
 func (f *FileController) DownloadFile(c *gin.Context) {

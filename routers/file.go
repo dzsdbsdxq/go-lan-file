@@ -7,13 +7,12 @@ import (
 
 func InitFileRouters(r *gin.RouterGroup) gin.IRoutes {
 	fileController := controller.NewFileController()
-	router := r.Group("/file")
+	router := r.Group("/files")
 	{
-		router.Any("/upload", fileController.UploadFile)
-		router.GET("/download/:shareId", fileController.DownloadFile)
-		//router.PATCH("/update/:addressId", addressController.UpdateAddressById)
-		//router.DELETE("/delete/batch", addressController.BatchDeleteAddressByIds)
-		//router.GET("/getCredential", addressController.GetCredential)
+		router.POST("/", fileController.PostFile)
+		router.HEAD("/:id", fileController.HeadFile)
+		router.PATCH("/:id", fileController.PatchFile)
+		router.GET("/:id", fileController.GetFile)
 	}
 	return r
 }

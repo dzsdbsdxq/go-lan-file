@@ -1,0 +1,4 @@
+2023-07-20 18:06:16	FATAL	go-lan-file/main.go:67	main.main	Server forced to shutdown:context deadline exceeded
+2023-07-20 18:10:33	FATAL	go-lan-file/main.go:67	main.main	Server forced to shutdown:context deadline exceeded
+2023-07-20 18:44:20	FATAL	go-lan-file/main.go:67	main.main	Server forced to shutdown:context deadline exceeded
+2023-07-20 18:46:09	FATAL	go-lan-file/main.go:67	main.main	Server forced to shutdown:context deadline exceeded
