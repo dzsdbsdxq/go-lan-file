@@ -6,6 +6,6 @@ import (
 )
 
 func InitWebSocketRouters(r *gin.RouterGroup) gin.IRoutes {
-	r.Any("/acc", service.WebSocketFunc)
+	r.GET("/acc", service.WebSocketFunc)
 	return r
 }

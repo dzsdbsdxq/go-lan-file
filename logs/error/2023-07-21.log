@@ -4,3 +4,156 @@
 2023-07-21 01:22:35	ERROR	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [%s] receive message: %sf5d3fe5a-49a0-4e1e-aa94-53c287d08945{"222":"dddsfs"}
 2023-07-21 01:22:39	ERROR	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [%s] receive message: %sf5d3fe5a-49a0-4e1e-aa94-53c287d08945{"222":"dddsfs"}
 2023-07-21 01:23:42	ERROR	service/client.go:54	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:51156websocket: close 1000 (normal)
+2023-07-21 13:11:31	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:56465websocket: close 1000 (normal)
+2023-07-21 13:17:57	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:51354websocket: close 1000 (normal)
+2023-07-21 13:18:13	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:54640websocket: close 1000 (normal)
+2023-07-21 13:25:54	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59722websocket: close 1000 (normal)
+2023-07-21 13:48:15	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:57249read tcp 127.0.0.1:10000->127.0.0.1:57249: use of closed network connection
+2023-07-21 13:48:15	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 10 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc0000b6300})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0002202d0)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:48:15	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [94b862a2-0282-4168-9e30-b0d4b15431be] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:57249: use of closed network connection
+2023-07-21 13:49:21	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:61560read tcp 127.0.0.1:10000->127.0.0.1:61560: use of closed network connection
+2023-07-21 13:49:21	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 105 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc00065a8d0})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0006602d0)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:49:21	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [46311378-4316-492a-9767-d2ecae476c33] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:61560: use of closed network connection
+2023-07-21 13:54:00	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63112read tcp 127.0.0.1:10000->127.0.0.1:63112: use of closed network connection
+2023-07-21 13:54:00	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 81 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc00046a300})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc000660000)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:54:00	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [0ae109b1-5057-47fa-87e5-fc2d42767675] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:63112: use of closed network connection
+2023-07-21 13:54:01	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63178read tcp 127.0.0.1:10000->127.0.0.1:63178: use of closed network connection
+2023-07-21 13:54:01	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 46 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc000156450})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0001e22d0)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:54:01	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:63178: use of closed network connection
+2023-07-21 13:54:02	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63179read tcp 127.0.0.1:10000->127.0.0.1:63179: use of closed network connection
+2023-07-21 13:54:02	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 123 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc00065a720})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0005de240)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:54:02	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [df92a057-492e-48e7-b8e8-b6118638aad4] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:63179: use of closed network connection
+2023-07-21 13:54:02	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63244read tcp 127.0.0.1:10000->127.0.0.1:63244: use of closed network connection
+2023-07-21 13:54:02	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 149 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc00065a8a0})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0006602d0)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:54:02	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [57b06573-1c23-4156-9562-4e1b9d64aa77] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:63244: use of closed network connection
+2023-07-21 13:54:03	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63245read tcp 127.0.0.1:10000->127.0.0.1:63245: use of closed network connection
+2023-07-21 13:54:03	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 151 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc000156e70})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc000660360)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:54:03	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [93b6be2a-0558-4a4d-85a1-8471506467a5] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:63245: use of closed network connection
+2023-07-21 13:54:08	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63634read tcp 127.0.0.1:10000->127.0.0.1:63634: use of closed network connection
+2023-07-21 13:54:08	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stopgoroutine 163 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc00046a6f0})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0001e2870)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:54:08	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:63634: use of closed network connection
+2023-07-21 13:55:05	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:50960read tcp 127.0.0.1:10000->127.0.0.1:50960: use of closed network connection
+2023-07-21 13:55:05	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stop:goroutine 9 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc0003e0330})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0001e22d0)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:55:05	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:50960: use of closed network connection
+2023-07-21 13:56:54	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:57997read tcp 127.0.0.1:10000->127.0.0.1:57997: use of closed network connection
+2023-07-21 13:56:54	ERROR	service/client.go:71	share.ac.cn/services/websocket/service.(*Client).Write.func1	write stop:goroutine 152 [running]:
+runtime/debug.Stack()
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/debug/stack.go:24 +0x65
+share.ac.cn/services/websocket/service.(*Client).Write.func1()
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:71 +0x3d
+panic({0x100840940, 0xc0000aa270})
+	/Users/lishoujie/.g/versions/1.20.2/src/runtime/panic.go:884 +0x213
+share.ac.cn/services/websocket/service.(*Client).Write(0xc0000ae240)
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/client.go:90 +0x2af
+created by share.ac.cn/services/websocket/service.WebSocketFunc
+	/Users/lishoujie/GolandProjects/go-lan-file/services/websocket/service/init.go:42 +0x4bf
+interface conversion: interface {} is *service.MessageData, not []uint8
+2023-07-21 13:56:54	ERROR	service/client.go:52	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [c30349f5-c8f6-4900-8353-5265dce7ee3c] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:57997: use of closed network connection
+2023-07-21 14:04:10	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:53160websocket: close 1000 (normal)
+2023-07-21 14:05:22	ERROR	service/client.go:59	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:57403websocket: close 1000 (normal)
+2023-07-21 14:05:22	ERROR	service/client.go:92	share.ac.cn/services/websocket/service.(*Client).Write	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] write message err: websocket: close sent
+2023-07-21 17:18:15	ERROR	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:64139websocket: close 1000 (normal)
+2023-07-21 17:20:01	ERROR	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:56039websocket: close 1000 (normal)
+2023-07-21 17:21:09	ERROR	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59431websocket: close 1000 (normal)
+2023-07-21 17:23:21	ERROR	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:51452websocket: close 1000 (normal)
+2023-07-21 17:23:47	ERROR	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:55120websocket: close 1000 (normal)
+2023-07-21 17:25:34	ERROR	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:62453websocket: close 1000 (normal)

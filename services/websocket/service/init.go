@@ -10,6 +10,7 @@ import (
 var clientManager = NewWebsocketManager() //管理者
 
 func StartWebSocket() {
+	WebSocketRouterInit()
 	go clientManager.start()
 }
 
@@ -32,7 +33,7 @@ func WebSocketFunc(ctx *gin.Context) {
 	}
 	common.Log.Info("升级协议", "ua:", ctx.Request.Header["User-Agent"], "referer:", ctx.Request.Header["Referer"])
 
-	client := NewClient(ctx.DefaultQuery("group", "local"), conn.RemoteAddr().String(), conn)
+	client := NewClient(ctx, ctx.DefaultQuery("group", "local"), conn.RemoteAddr().String(), conn)
 
 	common.Log.Infof("websocket 建立连接: %s", conn.RemoteAddr().String())
 
@@ -40,4 +41,9 @@ func WebSocketFunc(ctx *gin.Context) {
 
 	go client.Read()
 	go client.Write()
+}
+func WebSocketRouterInit() {
+	Register("login", LoginController)
+	Register("heartbeat", HeartbeatController)
+	Register("ping", PingController)
 }

@@ -1,28 +1,35 @@
 package service
 
 import (
+	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 	uuid "github.com/satori/go.uuid"
 	"runtime/debug"
 	"share.ac.cn/common"
+	"share.ac.cn/model"
 	"time"
 )
+
+const heartbeatExpirationTime = 3 * 60
 
 // Client 单个 websocket 信息
 type Client struct {
 	Id            string
 	Group         string
+	Ctx           *gin.Context
 	Addr          string    //客户端地址
 	FirstTime     time.Time //首次连接时间
 	HeartBeatTime time.Time //用户上次心跳时间
 	LoginTime     time.Time //登录时间，登录以后才有
 	Socket        *websocket.Conn
 	Message       chan []byte
+	User          *model.UserOnline //用户信息，用户登录以后才有
 }
 
-func NewClient(group string, addr string, socket *websocket.Conn) *Client {
+func NewClient(ctx *gin.Context, group string, addr string, socket *websocket.Conn) *Client {
 	return &Client{
 		Id:            uuid.NewV4().String(),
+		Ctx:           ctx,
 		Group:         group,
 		Addr:          addr,
 		FirstTime:     time.Now(),
@@ -30,6 +37,7 @@ func NewClient(group string, addr string, socket *websocket.Conn) *Client {
 		LoginTime:     time.Now(),
 		Socket:        socket,
 		Message:       make(chan []byte, 1024),
+		User:          nil,
 	}
 }
 
@@ -44,7 +52,7 @@ func (c *Client) Read() {
 		clientManager.UnRegister <- c
 		common.Log.Infof("client [%s] disconnect", c.Id)
 		if err := c.Socket.Close(); err != nil {
-			common.Log.Error("client [%s] disconnect err: %s", c.Id, err)
+			common.Log.Errorf("client [%s] disconnect err: %s", c.Id, err)
 		}
 	}()
 
@@ -55,7 +63,9 @@ func (c *Client) Read() {
 			break
 		}
 		common.Log.Infof("client [%s] receive message: %s", c.Id, string(message))
-		c.Message <- message
+		//c.Message <- message
+		//处理消息
+		ProcessData(c, message)
 	}
 }
 
@@ -63,14 +73,14 @@ func (c *Client) Read() {
 func (c *Client) Write() {
 	defer func() {
 		if r := recover(); r != nil {
-			common.Log.Error("write stop", string(debug.Stack()), r)
+			common.Log.Error("write stop:", string(debug.Stack()), r)
 		}
 	}()
 	defer func() {
-		common.Log.Info("client [%s] disconnect", c.Id)
+		common.Log.Infof("client [%s] disconnect", c.Id)
 		clientManager.UnRegister <- c
 		if err := c.Socket.Close(); err != nil {
-			common.Log.Info("client [%s] disconnect err: %s", c.Id, err)
+			common.Log.Infof("client [%s] disconnect err: %s", c.Id, err)
 		}
 	}()
 
@@ -81,11 +91,43 @@ func (c *Client) Write() {
 				_ = c.Socket.WriteMessage(websocket.CloseMessage, []byte{})
 				return
 			}
-			common.Log.Info("client [%s] write message: %s", c.Id, string(message))
+			common.Log.Infof("client [%s] write message: %s", c.Id, message)
 			err := c.Socket.WriteMessage(websocket.TextMessage, message)
 			if err != nil {
-				common.Log.Error("client [%s] write message err: %s", c.Id, err)
+				common.Log.Errorf("client [%s] write message err: %s", c.Id, err)
 			}
 		}
 	}
+}
+
+// Login 用户登录
+func (c *Client) Login(user *model.UserOnline) {
+	c.User = user
+	c.LoginTime = time.Now()
+	// 登录成功=心跳一次
+	c.HeartBeat()
+}
+
+// HeartBeat 用户心跳
+func (c *Client) HeartBeat() {
+	c.HeartBeatTime = time.Now()
+}
+
+// IsHeartbeatTimeout 心跳超时
+func (c *Client) IsHeartbeatTimeout() bool {
+	if c.HeartBeatTime.Before(time.Now().Add(-heartbeatExpirationTime * time.Second)) {
+		common.Log.Infof("连接客户端[%s],心跳超时", c.Id)
+		return true
+	}
+	return false
+}
+
+// IsLogin 是否登录了
+func (c *Client) IsLogin() (isLogin bool) {
+	// 用户登录了
+	if c.User != nil {
+		isLogin = true
+		return
+	}
+	return
 }

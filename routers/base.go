@@ -29,9 +29,9 @@ func InitRoutes() *gin.Engine {
 	apiGroup := r.Group("/")
 
 	// 注册路由
-	InitFileRouters(apiGroup) // 注册文件路由, casbin鉴权中间件
-	InitApiRouters(apiGroup)
-	InitWebSocketRouters(apiGroup)
+	InitFileRouters(apiGroup)      // 注册文件路由
+	InitApiRouters(apiGroup)       //注册api路由
+	InitWebSocketRouters(apiGroup) //注册websocket路由
 
 	common.Log.Info("初始化路由完成！")
 	return r

@@ -1,10 +1,11 @@
-package websocket
+package service
 
 import (
 	"fmt"
-	"github.com/goccy/go-json"
+	jsoniter "github.com/json-iterator/go"
 	"share.ac.cn/common"
-	"share.ac.cn/model"
+	rqs "share.ac.cn/request"
+	"share.ac.cn/response"
 	"sync"
 )
 
@@ -35,19 +36,19 @@ func ProcessData(client *Client, message []byte) {
 			fmt.Println("处理数据 stop", r)
 		}
 	}()
-	request := &model.Request{}
+	request := &rqs.Request{}
 
-	err := json.Unmarshal(message, request)
+	err := jsoniter.Unmarshal(message, request)
 	if err != nil {
 		fmt.Println("数据处理 json Unmarshal:", err)
-		client.SendMsg([]byte("数据不合法"))
+		client.Message <- []byte("数据不合法")
 		return
 	}
 
-	requestData, err := json.Marshal(request.Data)
+	requestData, err := jsoniter.Marshal(request.Data)
 	if err != nil {
 		fmt.Println("数据处理 json Marshal", err)
-		client.SendMsg([]byte("处理数据失败"))
+		client.Message <- []byte("处理数据失败")
 		return
 	}
 	seq := request.Seq
@@ -69,17 +70,12 @@ func ProcessData(client *Client, message []byte) {
 	}
 
 	msg = common.GetErrorMessage(code, msg)
-	responseHead := model.NewResponseHead(seq, cmd, code, msg, data)
-	headByte, err := json.Marshal(responseHead)
+	responseHead := response.NewResponseHead(client.Id, client.Group, seq, cmd, code, msg, data)
+	headByte, err := jsoniter.Marshal(responseHead)
 	if err != nil {
 		fmt.Println("处理数据 json Marshal", err)
-
 		return
 	}
-
-	client.SendMsg(headByte)
-
-	fmt.Println("acc_response send", client.Addr, client.RoomId, client.UserId, "cmd", cmd, "code", code)
-
+	client.Message <- headByte
 	return
 }

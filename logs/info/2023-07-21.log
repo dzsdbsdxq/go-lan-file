@@ -68,3 +68,443 @@
 2023-07-21 01:23:42	INFO	service/client.go:73	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [%s] disconnect err: %s31be3274-ec5b-4d5e-a3b0-644332e58881close tcp 127.0.0.1:10000->127.0.0.1:51156: use of closed network connection
 2023-07-21 01:24:33	INFO	share.ac.cn/main.go:64	main.main	Shutting down server...
 2023-07-21 01:24:33	INFO	share.ac.cn/main.go:74	main.main	Server exiting!
+2023-07-21 09:02:26	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 09:02:26	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 09:02:26	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 09:02:26	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 09:13:06	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 09:13:06	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:62812
+2023-07-21 09:13:19	INFO	service/client.go:57	share.ac.cn/services/websocket/service.(*Client).Read	client [f32faf42-cd9c-41ef-bb01-02d903760612] receive message: 你好
+2023-07-21 09:13:19	INFO	service/client.go:84	share.ac.cn/services/websocket/service.(*Client).Write	client [%s] write message: %sf32faf42-cd9c-41ef-bb01-02d903760612你好
+2023-07-21 13:08:47	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:08:47	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:09:57	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:09:57	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:09:57	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:09:57	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:09:57	INFO	service/service.go:78	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:10:05	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:10:05	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:56465
+2023-07-21 13:10:05	INFO	service/service.go:105	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [3d053467-e95a-4bce-93d8-f7c43801a810] connect
+2023-07-21 13:10:05	INFO	service/service.go:106	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [3d053467-e95a-4bce-93d8-f7c43801a810] to group [local]
+2023-07-21 13:10:11	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [3d053467-e95a-4bce-93d8-f7c43801a810] receive message: 你好
+2023-07-21 13:10:11	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [3d053467-e95a-4bce-93d8-f7c43801a810] write message: 你好
+2023-07-21 13:10:17	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [3d053467-e95a-4bce-93d8-f7c43801a810] receive message: 111111
+2023-07-21 13:10:17	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [3d053467-e95a-4bce-93d8-f7c43801a810] write message: 111111
+2023-07-21 13:10:26	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [3d053467-e95a-4bce-93d8-f7c43801a810] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:10:26	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [3d053467-e95a-4bce-93d8-f7c43801a810] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:11:31	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [3d053467-e95a-4bce-93d8-f7c43801a810] disconnect
+2023-07-21 13:14:17	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:14:17	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:14:20	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:14:20	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:14:20	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:14:20	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:14:20	INFO	service/service.go:78	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:14:24	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:14:24	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:14:56	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:14:56	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:14:56	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:14:56	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:14:56	INFO	service/service.go:78	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:15:01	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:15:01	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:59220
+2023-07-21 13:15:01	INFO	service/service.go:105	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [0ee61386-d72f-4de2-9ca4-5e710051657b] connect
+2023-07-21 13:15:01	INFO	service/service.go:106	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [0ee61386-d72f-4de2-9ca4-5e710051657b] to group [local]
+2023-07-21 13:17:06	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:17:06	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:17:09	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:17:09	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:17:09	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:17:09	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:17:09	INFO	service/service.go:78	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:17:14	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:17:14	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:51354
+2023-07-21 13:17:14	INFO	service/service.go:105	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [88f6d93d-6a69-4814-9b60-c1a54ee8806c] connect
+2023-07-21 13:17:14	INFO	service/service.go:106	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [88f6d93d-6a69-4814-9b60-c1a54ee8806c] to group [local]
+2023-07-21 13:17:57	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [88f6d93d-6a69-4814-9b60-c1a54ee8806c] disconnect
+2023-07-21 13:18:05	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:18:05	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:54640
+2023-07-21 13:18:13	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [8d07539d-4329-4901-84ff-03163b0fd83c] disconnect
+2023-07-21 13:23:25	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:23:25	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:23:29	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:23:29	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:23:29	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:23:29	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:23:29	INFO	service/service.go:156	share.ac.cn/services/websocket/service.(*Manager).SendService	监听处理单个 client 发送数据...
+2023-07-21 13:23:29	INFO	service/service.go:78	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:23:39	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:23:39	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:59722
+2023-07-21 13:23:39	INFO	service/service.go:105	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [78e79729-fbb1-46fa-994b-b3d116356d7b] connect
+2023-07-21 13:23:39	INFO	service/service.go:106	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [78e79729-fbb1-46fa-994b-b3d116356d7b] to group [local]
+2023-07-21 13:25:49	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [78e79729-fbb1-46fa-994b-b3d116356d7b] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:25:49	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [78e79729-fbb1-46fa-994b-b3d116356d7b] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:25:54	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [78e79729-fbb1-46fa-994b-b3d116356d7b] disconnect
+2023-07-21 13:26:15	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:26:15	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:53303
+2023-07-21 13:35:23	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:35:23	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:35:27	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:35:27	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:35:27	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:35:27	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:35:27	INFO	service/service.go:75	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:35:31	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:35:31	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:56315
+2023-07-21 13:35:31	INFO	service/service.go:102	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [2581fe30-7747-4e88-8c25-f158b3c40ef1] connect
+2023-07-21 13:35:31	INFO	service/service.go:103	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [2581fe30-7747-4e88-8c25-f158b3c40ef1] to group [local]
+2023-07-21 13:35:45	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [2581fe30-7747-4e88-8c25-f158b3c40ef1] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:35:45	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [2581fe30-7747-4e88-8c25-f158b3c40ef1] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:35:46	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [2581fe30-7747-4e88-8c25-f158b3c40ef1] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:35:46	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [2581fe30-7747-4e88-8c25-f158b3c40ef1] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 13:37:22	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:37:22	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:37:26	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:37:26	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:37:26	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:37:26	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:37:26	INFO	service/service.go:76	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:37:32	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:37:32	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:65064
+2023-07-21 13:37:32	INFO	service/service.go:103	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [39ea4580-2f1a-4942-9c88-06bc2a8815ba] connect
+2023-07-21 13:37:32	INFO	service/service.go:104	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [39ea4580-2f1a-4942-9c88-06bc2a8815ba] to group [local]
+2023-07-21 13:38:12	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:38:12	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:38:35	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:38:35	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:38:35	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:38:35	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:38:35	INFO	service/service.go:76	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:38:42	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:38:42	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:53228
+2023-07-21 13:38:42	INFO	service/service.go:103	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [1c7a51c4-45e7-4bdf-8581-d5e0531e0a17] connect
+2023-07-21 13:38:42	INFO	service/service.go:104	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [1c7a51c4-45e7-4bdf-8581-d5e0531e0a17] to group [local]
+2023-07-21 13:40:09	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:40:09	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:40:12	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:40:12	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:40:12	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:40:12	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:40:12	INFO	service/service.go:76	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:40:17	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:40:17	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:59287
+2023-07-21 13:40:17	INFO	service/service.go:103	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [44b4676b-07a9-4b7a-b5be-bcc76ee32a8d] connect
+2023-07-21 13:40:17	INFO	service/service.go:104	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [44b4676b-07a9-4b7a-b5be-bcc76ee32a8d] to group [local]
+2023-07-21 13:41:22	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:41:22	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:41:27	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:41:27	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:41:27	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:41:27	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:41:27	INFO	service/service.go:76	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:41:30	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:41:30	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:64039
+2023-07-21 13:41:30	INFO	service/service.go:103	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [ab058dcb-3dc4-4a4a-b0fe-5e39e658647d] connect
+2023-07-21 13:41:30	INFO	service/service.go:104	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [ab058dcb-3dc4-4a4a-b0fe-5e39e658647d] to group [local]
+2023-07-21 13:48:07	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:48:07	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:48:11	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:48:11	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:48:11	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:48:11	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:48:11	INFO	service/service.go:72	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:48:15	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:48:15	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:57249
+2023-07-21 13:48:15	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [94b862a2-0282-4168-9e30-b0d4b15431be] connect
+2023-07-21 13:48:15	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [94b862a2-0282-4168-9e30-b0d4b15431be] to group [local]
+2023-07-21 13:48:15	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:48:15	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [94b862a2-0282-4168-9e30-b0d4b15431be] write message: &{%!s(*service.Head=&{OYSRuTXLgpm enter hello~}) 94b862a2-0282-4168-9e30-b0d4b15431be local}
+2023-07-21 13:48:15	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [94b862a2-0282-4168-9e30-b0d4b15431be] disconnect
+2023-07-21 13:48:15	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [94b862a2-0282-4168-9e30-b0d4b15431be] from group [local]
+2023-07-21 13:48:15	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [94b862a2-0282-4168-9e30-b0d4b15431be] disconnect
+2023-07-21 13:48:15	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [94b862a2-0282-4168-9e30-b0d4b15431be] from group [local]
+2023-07-21 13:49:03	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:49:03	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:49:11	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:49:11	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:49:11	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:49:11	INFO	service/service.go:72	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:49:11	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:49:21	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:49:21	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:61560
+2023-07-21 13:49:21	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [46311378-4316-492a-9767-d2ecae476c33] connect
+2023-07-21 13:49:21	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [46311378-4316-492a-9767-d2ecae476c33] to group [local]
+2023-07-21 13:49:21	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:49:21	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [46311378-4316-492a-9767-d2ecae476c33] write message: &{%!s(*service.Head=&{NrWC4W3SXaG enter hello~}) 46311378-4316-492a-9767-d2ecae476c33 local}
+2023-07-21 13:49:21	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [46311378-4316-492a-9767-d2ecae476c33] disconnect
+2023-07-21 13:49:21	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [46311378-4316-492a-9767-d2ecae476c33] from group [local]
+2023-07-21 13:49:21	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [46311378-4316-492a-9767-d2ecae476c33] disconnect
+2023-07-21 13:49:21	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [46311378-4316-492a-9767-d2ecae476c33] from group [local]
+2023-07-21 13:54:00	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:54:00	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:63112
+2023-07-21 13:54:00	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [0ae109b1-5057-47fa-87e5-fc2d42767675] connect
+2023-07-21 13:54:00	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [0ae109b1-5057-47fa-87e5-fc2d42767675] to group [local]
+2023-07-21 13:54:00	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:54:00	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [0ae109b1-5057-47fa-87e5-fc2d42767675] write message: &{%!s(*service.Head=&{RGponeGHnM0 enter hello~}) 0ae109b1-5057-47fa-87e5-fc2d42767675 local}
+2023-07-21 13:54:00	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [0ae109b1-5057-47fa-87e5-fc2d42767675] disconnect
+2023-07-21 13:54:00	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [0ae109b1-5057-47fa-87e5-fc2d42767675] from group [local]
+2023-07-21 13:54:00	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [0ae109b1-5057-47fa-87e5-fc2d42767675] disconnect
+2023-07-21 13:54:00	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [0ae109b1-5057-47fa-87e5-fc2d42767675] from group [local]
+2023-07-21 13:54:01	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:54:01	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:63178
+2023-07-21 13:54:01	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] connect
+2023-07-21 13:54:01	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] to group [local]
+2023-07-21 13:54:01	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:54:01	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] write message: &{%!s(*service.Head=&{Iapy7lTOwyJ enter hello~}) 843ff4f8-cea6-4b7c-9697-d1a8d116cd40 local}
+2023-07-21 13:54:01	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] disconnect
+2023-07-21 13:54:01	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] from group [local]
+2023-07-21 13:54:01	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] disconnect
+2023-07-21 13:54:01	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [843ff4f8-cea6-4b7c-9697-d1a8d116cd40] from group [local]
+2023-07-21 13:54:02	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:54:02	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:63179
+2023-07-21 13:54:02	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [df92a057-492e-48e7-b8e8-b6118638aad4] connect
+2023-07-21 13:54:02	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [df92a057-492e-48e7-b8e8-b6118638aad4] to group [local]
+2023-07-21 13:54:02	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:54:02	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [df92a057-492e-48e7-b8e8-b6118638aad4] write message: &{%!s(*service.Head=&{UMxFzl7HCze enter hello~}) df92a057-492e-48e7-b8e8-b6118638aad4 local}
+2023-07-21 13:54:02	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [df92a057-492e-48e7-b8e8-b6118638aad4] disconnect
+2023-07-21 13:54:02	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [df92a057-492e-48e7-b8e8-b6118638aad4] from group [local]
+2023-07-21 13:54:02	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [df92a057-492e-48e7-b8e8-b6118638aad4] disconnect
+2023-07-21 13:54:02	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [df92a057-492e-48e7-b8e8-b6118638aad4] from group [local]
+2023-07-21 13:54:02	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:54:02	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:63244
+2023-07-21 13:54:02	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [57b06573-1c23-4156-9562-4e1b9d64aa77] connect
+2023-07-21 13:54:02	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [57b06573-1c23-4156-9562-4e1b9d64aa77] to group [local]
+2023-07-21 13:54:02	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:54:02	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [57b06573-1c23-4156-9562-4e1b9d64aa77] write message: &{%!s(*service.Head=&{jB5dm2QzAN2 enter hello~}) 57b06573-1c23-4156-9562-4e1b9d64aa77 local}
+2023-07-21 13:54:02	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [57b06573-1c23-4156-9562-4e1b9d64aa77] disconnect
+2023-07-21 13:54:02	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [57b06573-1c23-4156-9562-4e1b9d64aa77] from group [local]
+2023-07-21 13:54:02	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [57b06573-1c23-4156-9562-4e1b9d64aa77] disconnect
+2023-07-21 13:54:02	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [57b06573-1c23-4156-9562-4e1b9d64aa77] from group [local]
+2023-07-21 13:54:03	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:54:03	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:63245
+2023-07-21 13:54:03	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [93b6be2a-0558-4a4d-85a1-8471506467a5] connect
+2023-07-21 13:54:03	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [93b6be2a-0558-4a4d-85a1-8471506467a5] to group [local]
+2023-07-21 13:54:03	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:54:03	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [93b6be2a-0558-4a4d-85a1-8471506467a5] write message: &{%!s(*service.Head=&{3N8jy2tG8ln enter hello~}) 93b6be2a-0558-4a4d-85a1-8471506467a5 local}
+2023-07-21 13:54:03	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [93b6be2a-0558-4a4d-85a1-8471506467a5] disconnect
+2023-07-21 13:54:03	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [93b6be2a-0558-4a4d-85a1-8471506467a5] from group [local]
+2023-07-21 13:54:03	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [93b6be2a-0558-4a4d-85a1-8471506467a5] disconnect
+2023-07-21 13:54:03	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [93b6be2a-0558-4a4d-85a1-8471506467a5] from group [local]
+2023-07-21 13:54:08	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:54:08	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:63634
+2023-07-21 13:54:08	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] connect
+2023-07-21 13:54:08	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] to group [local]
+2023-07-21 13:54:08	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:54:08	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] write message: &{%!s(*service.Head=&{8Srs57BECew enter hello~}) a425737a-c6e4-46d6-ad9e-727d5cb9103f local}
+2023-07-21 13:54:08	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] disconnect
+2023-07-21 13:54:08	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] from group [local]
+2023-07-21 13:54:08	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] disconnect
+2023-07-21 13:54:08	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [a425737a-c6e4-46d6-ad9e-727d5cb9103f] from group [local]
+2023-07-21 13:54:57	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:54:57	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:55:02	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:55:02	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:55:02	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:55:02	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:55:02	INFO	service/service.go:72	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:55:05	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:55:05	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:50960
+2023-07-21 13:55:05	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] connect
+2023-07-21 13:55:05	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] to group [local]
+2023-07-21 13:55:05	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:55:05	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] write message: &{%!s(*service.Head=&{CtEK8xp27HW enter hello~}) 0e81ca9a-e1a8-4335-9dd5-2a6dc2480850 local}
+2023-07-21 13:55:05	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] disconnect
+2023-07-21 13:55:05	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] from group [local]
+2023-07-21 13:55:05	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] disconnect
+2023-07-21 13:55:05	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [0e81ca9a-e1a8-4335-9dd5-2a6dc2480850] from group [local]
+2023-07-21 13:56:47	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 13:56:47	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 13:56:51	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 13:56:51	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 13:56:51	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 13:56:51	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 13:56:51	INFO	service/service.go:72	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 13:56:54	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 13:56:54	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:57997
+2023-07-21 13:56:54	INFO	service/service.go:99	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [c30349f5-c8f6-4900-8353-5265dce7ee3c] connect
+2023-07-21 13:56:54	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [c30349f5-c8f6-4900-8353-5265dce7ee3c] to group [local]
+2023-07-21 13:56:54	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 13:56:54	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [c30349f5-c8f6-4900-8353-5265dce7ee3c] write message: &{%!s(*service.Head=&{HBxw0M8p7S9 enter hello~}) c30349f5-c8f6-4900-8353-5265dce7ee3c local}
+2023-07-21 13:56:54	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [c30349f5-c8f6-4900-8353-5265dce7ee3c] disconnect
+2023-07-21 13:56:54	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [c30349f5-c8f6-4900-8353-5265dce7ee3c] from group [local]
+2023-07-21 13:56:54	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [c30349f5-c8f6-4900-8353-5265dce7ee3c] disconnect
+2023-07-21 13:56:54	INFO	service/service.go:118	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [c30349f5-c8f6-4900-8353-5265dce7ee3c] from group [local]
+2023-07-21 14:03:28	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 14:03:28	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 14:03:32	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 14:03:32	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 14:03:32	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 14:03:32	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 14:03:32	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 14:03:36	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 14:03:36	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:51058
+2023-07-21 14:03:36	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [f9c44b74-b6c0-470f-848e-c222e497401e] connect
+2023-07-21 14:03:36	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [f9c44b74-b6c0-470f-848e-c222e497401e] to group [local]
+2023-07-21 14:03:36	INFO	service/service.go:155	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:03:36	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [f9c44b74-b6c0-470f-848e-c222e497401e] write message: {"Seq":"CxKgzPV8iN5","Cmd":"enter","Message":"hello~","Id":"f9c44b74-b6c0-470f-848e-c222e497401e","Group":"local"}
+2023-07-21 14:03:58	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 14:03:58	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 14:04:01	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 14:04:01	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 14:04:01	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 14:04:01	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 14:04:01	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 14:04:08	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 14:04:08	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:53160
+2023-07-21 14:04:08	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [c8216802-13db-4c29-9425-645a976cb837] connect
+2023-07-21 14:04:08	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [c8216802-13db-4c29-9425-645a976cb837] to group [local]
+2023-07-21 14:04:08	INFO	service/service.go:155	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:04:08	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [c8216802-13db-4c29-9425-645a976cb837] write message: {"Seq":"XFu1Y2iPdQE","Cmd":"enter","Message":"hello~","Id":"c8216802-13db-4c29-9425-645a976cb837","Group":"local"}
+2023-07-21 14:04:10	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [c8216802-13db-4c29-9425-645a976cb837] disconnect
+2023-07-21 14:04:10	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [c8216802-13db-4c29-9425-645a976cb837] from group [local]
+2023-07-21 14:04:10	INFO	service/service.go:155	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:04:10	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [c8216802-13db-4c29-9425-645a976cb837] disconnect
+2023-07-21 14:04:10	INFO	service/client.go:78	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [c8216802-13db-4c29-9425-645a976cb837] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:53160: use of closed network connection
+2023-07-21 14:04:10	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [c8216802-13db-4c29-9425-645a976cb837] from group [local]
+2023-07-21 14:04:10	INFO	service/service.go:155	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:05:06	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 14:05:06	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 14:05:10	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 14:05:10	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 14:05:10	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 14:05:10	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 14:05:10	INFO	service/service.go:74	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 14:05:14	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 14:05:14	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:57403
+2023-07-21 14:05:14	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] connect
+2023-07-21 14:05:14	INFO	service/service.go:102	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [b64ed38e-4746-4a49-a4b1-b8b13838a618] to group [local]
+2023-07-21 14:05:14	INFO	service/service.go:158	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:05:14	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] write message: {"Seq":"0VxbJiKOh2h","Cmd":"enter","Message":"hello~","Id":"b64ed38e-4746-4a49-a4b1-b8b13838a618","Group":"local"}
+2023-07-21 14:05:18	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:05:18	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:05:19	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:05:19	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:05:20	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:05:20	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:05:22	INFO	service/client.go:50	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] disconnect
+2023-07-21 14:05:22	INFO	service/service.go:120	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [b64ed38e-4746-4a49-a4b1-b8b13838a618] from group [local]
+2023-07-21 14:05:22	INFO	service/service.go:158	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:05:22	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] write message: {"Seq":"4HzN4LqNVJr","Cmd":"exit","Message":"bye~","Id":"b64ed38e-4746-4a49-a4b1-b8b13838a618","Group":"local"}
+2023-07-21 14:05:23	INFO	service/client.go:75	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] disconnect
+2023-07-21 14:05:23	INFO	service/service.go:120	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [b64ed38e-4746-4a49-a4b1-b8b13838a618] from group [local]
+2023-07-21 14:05:23	INFO	service/client.go:78	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [b64ed38e-4746-4a49-a4b1-b8b13838a618] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:57403: use of closed network connection
+2023-07-21 14:05:23	INFO	service/service.go:158	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:06:41	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 14:06:41	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 14:06:45	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 14:06:45	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 14:06:45	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 14:06:45	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 14:06:45	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 14:12:12	INFO	service/init.go:33	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 14:12:12	INFO	service/init.go:37	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:51420
+2023-07-21 14:12:12	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [76513048-1972-43b4-a2fb-548cc960d0ba] connect
+2023-07-21 14:12:12	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [76513048-1972-43b4-a2fb-548cc960d0ba] to group [local]
+2023-07-21 14:12:12	INFO	service/service.go:155	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 14:12:12	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [76513048-1972-43b4-a2fb-548cc960d0ba] write message: {"Seq":"uAGkPB8n72O","Cmd":"enter","Message":"hello~","Id":"76513048-1972-43b4-a2fb-548cc960d0ba","Group":"local"}
+2023-07-21 14:29:22	INFO	service/client.go:62	share.ac.cn/services/websocket/service.(*Client).Read	client [76513048-1972-43b4-a2fb-548cc960d0ba] receive message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 14:29:22	INFO	service/client.go:89	share.ac.cn/services/websocket/service.(*Client).Write	client [76513048-1972-43b4-a2fb-548cc960d0ba] write message: {"ssfsf":"fsfsfsfs"}
+2023-07-21 16:59:15	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 16:59:15	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 16:59:41	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 16:59:41	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 16:59:41	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 16:59:41	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 16:59:41	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 16:59:50	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 16:59:50	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:55552
+2023-07-21 16:59:50	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [2d34ebca-83b9-4b2b-97a0-d3eb0c7a3eb2] connect
+2023-07-21 16:59:50	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [2d34ebca-83b9-4b2b-97a0-d3eb0c7a3eb2] to group [local]
+2023-07-21 16:59:50	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 16:59:50	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [2d34ebca-83b9-4b2b-97a0-d3eb0c7a3eb2] write message: {"Seq":"iU6vIlRvYpG","Cmd":"enter","Message":"hello~","Id":"2d34ebca-83b9-4b2b-97a0-d3eb0c7a3eb2","Group":"local"}
+2023-07-21 17:17:57	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:17:57	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:64139
+2023-07-21 17:17:57	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [1644a232-3af7-4d23-a81b-abd6ce1710aa] connect
+2023-07-21 17:17:57	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [1644a232-3af7-4d23-a81b-abd6ce1710aa] to group [local]
+2023-07-21 17:17:57	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:17:57	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [1644a232-3af7-4d23-a81b-abd6ce1710aa] write message: {"Seq":"iYtI5RcNZXO","Cmd":"enter","Message":"hello~","Id":"1644a232-3af7-4d23-a81b-abd6ce1710aa","Group":"local"}
+2023-07-21 17:18:15	INFO	service/client.go:53	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [1644a232-3af7-4d23-a81b-abd6ce1710aa] disconnect
+2023-07-21 17:18:15	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [1644a232-3af7-4d23-a81b-abd6ce1710aa] from group [local]
+2023-07-21 17:19:56	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 17:19:56	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 17:19:56	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 17:19:56	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 17:19:56	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 17:19:59	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:19:59	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:56039
+2023-07-21 17:19:59	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [312d6032-fbcc-4d81-8e91-1213f6fb8e76] connect
+2023-07-21 17:19:59	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [312d6032-fbcc-4d81-8e91-1213f6fb8e76] to group [local]
+2023-07-21 17:19:59	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:19:59	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [312d6032-fbcc-4d81-8e91-1213f6fb8e76] write message: {"Seq":"Q7myl7ToffU","Cmd":"enter","Message":"hello~","Id":"312d6032-fbcc-4d81-8e91-1213f6fb8e76","Group":"local"}
+2023-07-21 17:20:01	INFO	service/client.go:53	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [312d6032-fbcc-4d81-8e91-1213f6fb8e76] disconnect
+2023-07-21 17:20:01	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [312d6032-fbcc-4d81-8e91-1213f6fb8e76] from group [local]
+2023-07-21 17:20:46	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 17:20:46	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 17:20:46	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 17:20:46	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 17:20:46	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 17:20:48	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:20:48	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:59431
+2023-07-21 17:20:48	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [e8dd35c5-ea89-4073-a381-dc13a45af63a] connect
+2023-07-21 17:20:48	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [e8dd35c5-ea89-4073-a381-dc13a45af63a] to group [local]
+2023-07-21 17:20:48	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:20:48	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [e8dd35c5-ea89-4073-a381-dc13a45af63a] write message: {"Seq":"oWWfvYXh9Vy","Cmd":"enter","Message":"hello~","Id":"e8dd35c5-ea89-4073-a381-dc13a45af63a","Group":"local"}
+2023-07-21 17:21:09	INFO	service/client.go:53	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [e8dd35c5-ea89-4073-a381-dc13a45af63a] disconnect
+2023-07-21 17:21:09	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [e8dd35c5-ea89-4073-a381-dc13a45af63a] from group [local]
+2023-07-21 17:21:45	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 17:21:45	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 17:21:45	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 17:21:45	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 17:21:45	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 17:22:52	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:22:52	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:51452
+2023-07-21 17:22:52	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [bf310243-1316-4bf8-88b2-5f90bb016ad2] connect
+2023-07-21 17:22:52	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [bf310243-1316-4bf8-88b2-5f90bb016ad2] to group [local]
+2023-07-21 17:22:52	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:22:52	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [bf310243-1316-4bf8-88b2-5f90bb016ad2] write message: {"Seq":"Eaj3ONpXjbC","Cmd":"enter","Message":"hello~","Id":"bf310243-1316-4bf8-88b2-5f90bb016ad2","Group":"local"}
+2023-07-21 17:23:21	INFO	service/client.go:53	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [bf310243-1316-4bf8-88b2-5f90bb016ad2] disconnect
+2023-07-21 17:23:21	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [bf310243-1316-4bf8-88b2-5f90bb016ad2] from group [local]
+2023-07-21 17:23:42	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 17:23:42	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 17:23:42	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 17:23:42	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 17:23:42	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 17:23:45	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:23:45	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:55120
+2023-07-21 17:23:45	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [1905baf1-6fea-4c79-9d6f-58b221375e45] connect
+2023-07-21 17:23:45	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [1905baf1-6fea-4c79-9d6f-58b221375e45] to group [local]
+2023-07-21 17:23:45	INFO	service/service.go:154	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:23:45	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [1905baf1-6fea-4c79-9d6f-58b221375e45] write message: {"Seq":"2pibHHSh1eP","Cmd":"enter","Message":"hello~","Id":"1905baf1-6fea-4c79-9d6f-58b221375e45","Group":"local"}
+2023-07-21 17:23:47	INFO	service/client.go:53	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [1905baf1-6fea-4c79-9d6f-58b221375e45] disconnect
+2023-07-21 17:23:47	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [1905baf1-6fea-4c79-9d6f-58b221375e45] from group [local]
+2023-07-21 17:24:39	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 17:24:39	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 17:24:39	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 17:24:39	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 17:24:39	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 17:25:27	INFO	go-lan-file/main.go:64	main.main	Shutting down server...
+2023-07-21 17:25:27	INFO	go-lan-file/main.go:74	main.main	Server exiting!
+2023-07-21 17:25:29	INFO	common/logger.go:98	share.ac.cn/common.InitLogger	初始化zap日志完成!
+2023-07-21 17:25:29	INFO	common/validator.go:26	share.ac.cn/common.InitValidate	初始化validator.v10数据校验器完成
+2023-07-21 17:25:29	INFO	routers/base.go:36	share.ac.cn/routers.InitRoutes	初始化路由完成！
+2023-07-21 17:25:29	INFO	go-lan-file/main.go:54	main.main	Server is running at 0.0.0.0:10000
+2023-07-21 17:25:29	INFO	service/service.go:73	share.ac.cn/services/websocket/service.(*Manager).start	websocket manage start:监听websocket进行中...
+2023-07-21 17:25:32	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:25:32	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:62453
+2023-07-21 17:25:32	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] connect
+2023-07-21 17:25:32	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] to group [local]
+2023-07-21 17:25:32	INFO	service/service.go:156	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:25:32	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] write message: {"Seq":"20JiQBDjCFS","Cmd":"enter","Message":"hello~","Id":"55335bcd-d8a0-4de3-9557-74e35b7c20a7","Group":"local"}
+2023-07-21 17:25:34	INFO	service/client.go:53	share.ac.cn/services/websocket/service.(*Client).Read.func2	client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] disconnect
+2023-07-21 17:25:34	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] from group [local]
+2023-07-21 17:25:34	INFO	service/client.go:80	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] disconnect
+2023-07-21 17:25:34	INFO	service/client.go:83	share.ac.cn/services/websocket/service.(*Client).Write.func2	client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] disconnect err: close tcp 127.0.0.1:10000->127.0.0.1:62453: use of closed network connection
+2023-07-21 17:25:34	INFO	service/service.go:119	share.ac.cn/services/websocket/service.(*Manager).EventUnregister	EventUnregister 用户断开连接 client [55335bcd-d8a0-4de3-9557-74e35b7c20a7] from group [local]
+2023-07-21 17:25:38	INFO	service/init.go:34	share.ac.cn/services/websocket/service.WebSocketFunc	升级协议ua:[]referer:[]
+2023-07-21 17:25:38	INFO	service/init.go:38	share.ac.cn/services/websocket/service.WebSocketFunc	websocket 建立连接: 127.0.0.1:62864
+2023-07-21 17:25:38	INFO	service/service.go:100	share.ac.cn/services/websocket/service.(*Manager).EventRegister	client [b18316a4-9273-4ec6-b35d-fb4efa03cf16] connect
+2023-07-21 17:25:38	INFO	service/service.go:101	share.ac.cn/services/websocket/service.(*Manager).EventRegister	register client [b18316a4-9273-4ec6-b35d-fb4efa03cf16] to group [local]
+2023-07-21 17:25:38	INFO	service/service.go:156	share.ac.cn/services/websocket/service.(*Manager).sendService	处理单个 client 发送数据...
+2023-07-21 17:25:38	INFO	service/client.go:94	share.ac.cn/services/websocket/service.(*Client).Write	client [b18316a4-9273-4ec6-b35d-fb4efa03cf16] write message: {"Seq":"OjFLVl6p5jq","Cmd":"enter","Message":"hello~","Id":"b18316a4-9273-4ec6-b35d-fb4efa03cf16","Group":"local"}

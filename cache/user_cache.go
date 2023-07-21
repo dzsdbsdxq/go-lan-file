@@ -1,10 +1,3 @@
-/**
- * Created by GoLand.
- * User: link1st
- * Date: 2019-07-25
- * Time: 17:28
- */
-
 package cache
 
 import (
@@ -23,7 +16,6 @@ const (
 /*********************  查询用户是否在线  ************************/
 func getUserOnlineKey(userKey string) (key string) {
 	key = fmt.Sprintf("%s%s", userOnlinePrefix, userKey)
-
 	return
 }
 
@@ -52,8 +44,6 @@ func GetUserOnlineInfo(userKey string) (userOnline *model.UserOnline, err error)
 		return
 	}
 
-	fmt.Println("获取用户在线数据", userKey, "time", userOnline.LoginTime, userOnline.HeartbeatTime, "AccIp", userOnline.AccIp, userOnline.IsLogoff)
-
 	return
 }
 
@@ -64,15 +54,13 @@ func SetUserOnlineInfo(userKey string, userOnline *model.UserOnline) (err error)
 
 	valueByte, err := json.Marshal(userOnline)
 	if err != nil {
-		fmt.Println("设置用户在线数据 json Marshal", key, err)
-
+		common.Log.Info("设置用户在线数据 json Marshal", key, err)
 		return
 	}
 
 	_, err = common.GetClient().Do("setEx", key, userOnlineCacheTime, string(valueByte)).Result()
 	if err != nil {
-		fmt.Println("设置用户在线数据 ", key, err)
-
+		common.Log.Info("设置用户在线数据 ", key, err)
 		return
 	}
 
