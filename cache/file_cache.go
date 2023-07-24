@@ -58,7 +58,7 @@ func SetFileOnline(shareId string, fileOnline *model.FileOnline) (err error) {
 	}
 	return
 }
-func GetFileOnlineAll() {
+func GetFileOnlineAll() []*model.FileOnline {
 	var files = make([]*model.FileOnline, 0)
 	key := GetFileOnlinePrefix()
 	iter := common.GetClient().Scan(0, key+"*", 0).Iterator()
@@ -70,9 +70,16 @@ func GetFileOnlineAll() {
 		files = append(files, info)
 	}
 	if err := iter.Err(); err != nil {
-		panic(err)
+		common.Log.Errorf("GetFileOnlineAll Err:%s", err.Error())
+		return nil
 	}
-
-	return
-
+	return files
+}
+func DeleteFileOnline(shareId string) {
+	key := getFileOnlineKey(shareId)
+	number, err := common.GetClient().Del(key).Result()
+	if err != nil {
+		common.Log.Info("DelFileOnlineInfo", key, number, err)
+		return
+	}
 }

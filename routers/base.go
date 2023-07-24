@@ -1,6 +1,7 @@
 package routers
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"share.ac.cn/common"
 	"share.ac.cn/config"
@@ -25,13 +26,20 @@ func InitRoutes() *gin.Engine {
 	// 启用全局跨域中间件
 	r.Use(middleware.CORSMiddleware())
 
+	// 初始化JWT认证中间件
+	authMiddleware, err := middleware.InitAuth()
+	if err != nil {
+		common.Log.Panicf("初始化JWT中间件失败：%v", err)
+		panic(fmt.Sprintf("初始化JWT中间件失败：%v", err))
+	}
+
+	InitWebRouters(r)
 	// 路由分组
 	apiGroup := r.Group("/")
-
 	// 注册路由
-	InitFileRouters(apiGroup)      // 注册文件路由
-	InitApiRouters(apiGroup)       //注册api路由
-	InitWebSocketRouters(apiGroup) //注册websocket路由
+	InitFileRouters(apiGroup, authMiddleware) // 注册文件路由
+	InitApiRouters(apiGroup, authMiddleware)  //注册api路由
+	InitWebSocketRouters(apiGroup)            //注册websocket路由
 
 	common.Log.Info("初始化路由完成！")
 	return r

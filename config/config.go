@@ -6,6 +6,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap/zapcore"
 	"os"
+	"share.ac.cn/common/rsa"
 )
 
 // 系统配置，对应yml
@@ -13,6 +14,15 @@ import (
 
 // Conf 全局配置变量
 var Conf = new(config)
+
+type config struct {
+	System    *SystemConfig    `mapstructure:"system" json:"system"`
+	File      *FileConfig      `mapstructure:"file" json:"file"`
+	Logs      *LogsConfig      `mapstructure:"logs" json:"logs"`
+	Redis     *RedisConfig     `mapstructure:"redis" json:"redis"`
+	Jwt       *JwtConfig       `mapstructure:"jwt" json:"jwt"`
+	RateLimit *RateLimitConfig `mapstructure:"rate-limit" json:"rateLimit"`
+}
 
 func InitConfig() {
 	workDir, err := os.Getwd()
@@ -33,6 +43,9 @@ func InitConfig() {
 		if err := viper.Unmarshal(Conf); err != nil {
 			panic(fmt.Errorf("初始化配置文件失败:%s \n", err))
 		}
+		// 读取rsa key
+		Conf.System.RSAPublicBytes = rsa.RSAReadKeyFromFile(Conf.System.RSAPublicKey)
+		Conf.System.RSAPrivateBytes = rsa.RSAReadKeyFromFile(Conf.System.RSAPrivateKey)
 	})
 
 	if err != nil {
@@ -42,21 +55,28 @@ func InitConfig() {
 	if err := viper.Unmarshal(Conf); err != nil {
 		panic(fmt.Errorf("初始化配置文件失败:%s \n", err))
 	}
+	// 读取rsa key
+	Conf.System.RSAPublicBytes = rsa.RSAReadKeyFromFile(Conf.System.RSAPublicKey)
+	Conf.System.RSAPrivateBytes = rsa.RSAReadKeyFromFile(Conf.System.RSAPrivateKey)
 }
 
-type config struct {
-	System    *SystemConfig    `mapstructure:"system" json:"system"`
-	File      *FileConfig      `mapstructure:"file" json:"file"`
-	Logs      *LogsConfig      `mapstructure:"logs" json:"logs"`
-	Redis     *RedisConfig     `mapstructure:"redis" json:"redis"`
-	RateLimit *RateLimitConfig `mapstructure:"rate-limit" json:"rateLimit"`
-}
 type SystemConfig struct {
-	Mode          string `mapstructure:"mode" json:"mode"`
-	Port          int    `mapstructure:"port" json:"port"`
-	WsPort        int    `mapstructure:"ws-port" json:"ws-port"`
-	Host          string `mapstructure:"host" json:"host"`
-	UploadBaseUrl string `mapstructure:"upload-base-url" json:"upload-base-url"`
+	Mode            string `mapstructure:"mode" json:"mode"`
+	Port            int    `mapstructure:"port" json:"port"`
+	RSAPublicKey    string `mapstructure:"rsa-public-key" json:"rsaPublicKey"`
+	RSAPrivateKey   string `mapstructure:"rsa-private-key" json:"rsaPrivateKey"`
+	RSAPublicBytes  []byte `mapstructure:"-" json:"-"`
+	RSAPrivateBytes []byte `mapstructure:"-" json:"-"`
+	WsPort          int    `mapstructure:"ws-port" json:"ws-port"`
+	Host            string `mapstructure:"host" json:"host"`
+	HttpBaseWeb     string `mapstructure:"http-base-web" json:"http-base-web"`
+	UploadBaseUrl   string `mapstructure:"upload-base-url" json:"upload-base-url"`
+}
+type JwtConfig struct {
+	Realm      string `mapstructure:"realm" json:"realm"`
+	Key        string `mapstructure:"key" json:"key"`
+	Timeout    int    `mapstructure:"timeout" json:"timeout"`
+	MaxRefresh int    `mapstructure:"max-refresh" json:"maxRefresh"`
 }
 type FileConfig struct {
 	AllowMaxSize        int    `mapstructure:"allow-max-size" json:"allow-max-size"`

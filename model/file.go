@@ -8,21 +8,18 @@ import (
 
 type Files struct {
 	common.Model
-	Uid             int       `json:"uid" gorm:"index"`
-	IsUploaded      int       `json:"is_uploaded"`
-	TotalChunks     int       `json:"total_chunks"`
-	IsDel           int       `json:"is_del"`
-	Views           int       `json:"views"`
-	Downloads       int       `json:"downloads"`
-	FileSize        int       `json:"file_size"`
-	ExpiredAt       time.Time `json:"expired_at" gorm:"index"`
-	FileName        string    `json:"file_name"`
-	FileId          string    `json:"file_id"`
-	UploadId        string    `json:"upload_id"`
-	ShareId         string    `json:"share_id" gorm:"index"`
-	FilePath        string    `json:"file_path"`
-	FileExt         string    `json:"file_ext"`
-	HasBeenUploaded string    `json:"has_been_uploaded"`
+	Uid        string    `json:"uid" gorm:"index"`
+	IsUploaded int       `json:"is_uploaded"`
+	IsDel      int       `json:"is_del"`
+	Views      int       `json:"views"`
+	Downloads  int       `json:"downloads"`
+	FileSize   int       `json:"file_size"`
+	ExpiredAt  time.Time `json:"expired_at" gorm:"index"`
+	FileName   string    `json:"file_name"`
+	FileId     string    `json:"file_id"`
+	ShareId    string    `json:"share_id" gorm:"index"`
+	FilePath   string    `json:"file_path"`
+	FileExt    string    `json:"file_ext"`
 }
 
 func (files *Files) BeforeCreate(scope *gorm.Scope) error {
@@ -39,7 +36,7 @@ func (files *Files) BeforeCreate(scope *gorm.Scope) error {
 	return nil
 }
 
-func (files *Files) GetFileByShareId(shareId string) (file Files) {
+func (files *Files) GetFileByShareId(shareId string) (file *Files) {
 	common.GetDb().Where("share_id = ?", shareId).First(&files)
 	return
 }
@@ -49,9 +46,9 @@ func (files *Files) GetFileByFileId(fileId string) (*Files, error) {
 	return files, err
 }
 
-func (files *Files) AddFiles(file *Files) (int, error) {
-	err := common.GetDb().Create(file).Error
-	return file.ID, err
+func (files *Files) AddFiles() (int, error) {
+	err := common.GetDb().Create(files).Error
+	return files.ID, err
 }
 func (files *Files) DeleteFiles(id int) bool {
 	common.GetDb().Where("id = ?", id).Delete(files)
@@ -77,11 +74,11 @@ func (files *Files) ExistFileByFileId(fileId string) bool {
 	return false
 }
 
-func (files *Files) UpdateViews(id int) {
-	common.GetDb().Model(&files).Where("id = ?", id).UpdateColumn("views", gorm.Expr("views + ?", 1))
+func (files *Files) UpdateViews() {
+	common.GetDb().Model(&files).Where("id = ?", files.ID).UpdateColumn("views", gorm.Expr("views + ?", 1))
 }
-func (files *Files) UpdateDownload(id int) {
-	common.GetDb().Model(&files).Where("id = ?", id).UpdateColumn("downloads", gorm.Expr("downloads + ?", 1))
+func (files *Files) UpdateDownload() {
+	common.GetDb().Model(&files).Where("id = ?", files.ID).UpdateColumn("downloads", gorm.Expr("downloads + ?", 1))
 }
 func (files *Files) UpdateColumn(key string, value interface{}) error {
 	err := common.GetDb().Model(&files).UpdateColumn(key, value).Error

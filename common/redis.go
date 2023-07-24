@@ -2,6 +2,7 @@ package common
 
 import (
 	"fmt"
+
 	"github.com/go-redis/redis"
 	"share.ac.cn/config"
 )

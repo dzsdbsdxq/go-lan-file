@@ -31,11 +31,11 @@ func getHandlers(key string) (value DisPoseFunc, ok bool) {
 
 func ProcessData(client *Client, message []byte) {
 	fmt.Println("处理数据:", client.Addr, string(message))
-	defer func() {
-		if r := recover(); r != nil {
-			fmt.Println("处理数据 stop", r)
-		}
-	}()
+	//defer func() {
+	//	if r := recover(); r != nil {
+	//		fmt.Println("处理数据 stop", r)
+	//	}
+	//}()
 	request := &rqs.Request{}
 
 	err := jsoniter.Unmarshal(message, request)

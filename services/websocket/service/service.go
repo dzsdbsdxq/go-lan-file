@@ -10,7 +10,6 @@ import (
 )
 
 // 用户登录管理
-var loginUserManager = NewLoginUsers()
 
 // Manager 管理所有websocket的信息
 type Manager struct {
@@ -123,7 +122,7 @@ func (manager *Manager) EventUnregister(client *Client) {
 	manager.DelClients(client)
 	if client.User != nil {
 		//删除登录用户连接
-		loginUserManager.DelUsers(client)
+		LoginUserManager.DelUsers(client)
 	}
 
 	if _, ok := manager.Group[client.Group]; ok {
@@ -143,7 +142,7 @@ func (manager *Manager) EventUnregister(client *Client) {
 func (manager *Manager) EventLogin(client *Client) {
 	//如果存在连接，则添加登录用户
 	if manager.InClient(client) {
-		loginUserManager.AddUsers(client)
+		LoginUserManager.AddUsers(client)
 		common.Log.Info("EventLogin 用户登录", client.Addr, client.User.UserId)
 		//发送登录成功信息
 		manager.Send(client.Id, client.Group, "login", []byte("success"))
@@ -194,7 +193,6 @@ func (manager *Manager) Send(id string, group string, cmd string, message interf
 			Message: message,
 		},
 	}
-	fmt.Println(data)
 	manager.sendService(data)
 }
 

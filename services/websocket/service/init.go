@@ -8,6 +8,7 @@ import (
 )
 
 var clientManager = NewWebsocketManager() //管理者
+var LoginUserManager = NewLoginUsers()
 
 func StartWebSocket() {
 	WebSocketRouterInit()
@@ -39,8 +40,8 @@ func WebSocketFunc(ctx *gin.Context) {
 
 	clientManager.RegisterClient(client)
 
-	go client.Read()
-	go client.Write()
+	go client.read()
+	go client.write()
 }
 func WebSocketRouterInit() {
 	Register("login", LoginController)

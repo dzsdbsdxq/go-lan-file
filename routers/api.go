@@ -1,19 +1,19 @@
 package routers
 
 import (
+	jwt "github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"
 	"share.ac.cn/controller"
 )
 
-func InitApiRouters(r *gin.RouterGroup) gin.IRoutes {
+func InitApiRouters(r *gin.RouterGroup, authMiddleware *jwt.GinJWTMiddleware) gin.IRoutes {
 	apiController := controller.NewApiController()
 	router := r.Group("/api")
 	{
 
 		router.POST("/newConnect", apiController.NewConnect)
-		//router.HEAD("/:id", gin.WrapF(handler.HeadFile))
-		//router.PATCH("/:id", gin.WrapF(handler.PatchFile))
-		//router.GET("/:id", gin.WrapF(handler.GetFile))
+		router.GET("/file/:shareId", apiController.GetFileInfo)
+		router.GET("/complete/:fileId", apiController.GetFileComplete)
 	}
 
 	return r

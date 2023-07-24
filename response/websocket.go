@@ -3,11 +3,11 @@ package response
 import "encoding/json"
 
 type Head struct {
-	Id       string      `json:"id"`
-	Group    string      `json:"group"`
-	Seq      string      `json:"seq"`      // 消息的Id
-	Cmd      string      `json:"cmd"`      // 消息的cmd 动作
-	Response *WSResponse `json:"response"` // 消息体
+	Id       string      `json:"Id"`
+	Group    string      `json:"Group"`
+	Seq      string      `json:"Seq"`      // 消息的Id
+	Cmd      string      `json:"Cmd"`      // 消息的cmd 动作
+	Response *WSResponse `json:"Response"` // 消息体
 }
 type WSResponse struct {
 	Code    uint32      `json:"code"`

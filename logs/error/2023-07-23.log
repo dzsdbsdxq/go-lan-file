@@ -1,0 +1,105 @@
+2023-07-23 01:12:41	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:49733websocket: close 1001 (going away)
+2023-07-23 01:23:48	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59678websocket: close 1001 (going away)
+2023-07-23 01:23:48	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63401websocket: close 1001 (going away)
+2023-07-23 01:23:48	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [2acf0a96-3456-492c-8069-4b2239e85fc3] write message err: websocket: close sent
+2023-07-23 01:26:58	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63954websocket: close 1001 (going away)
+2023-07-23 01:29:19	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:60933websocket: close 1001 (going away)
+2023-07-23 01:35:32	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:54142websocket: close 1001 (going away)
+2023-07-23 01:41:26	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:63804websocket: close 1001 (going away)
+2023-07-23 01:41:27	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:55094websocket: close 1001 (going away)
+2023-07-23 01:44:56	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:55233websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:53103websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:55362websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:64623websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:64993websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:53410websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:52585websocket: close 1001 (going away)
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [77b194cf-cb85-4bc0-8e24-4f38d3156364] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [4f973c49-7992-4b46-9d7c-b803b69fc221] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [b1e60623-0659-436e-96aa-f47cd3c21462] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [32004ba4-01bb-49a4-ade8-bb0c4a3b170d] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [b1e60623-0659-436e-96aa-f47cd3c21462] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [32004ba4-01bb-49a4-ade8-bb0c4a3b170d] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [b1e60623-0659-436e-96aa-f47cd3c21462] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [77b194cf-cb85-4bc0-8e24-4f38d3156364] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [b1e60623-0659-436e-96aa-f47cd3c21462] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [77b194cf-cb85-4bc0-8e24-4f38d3156364] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [b1e60623-0659-436e-96aa-f47cd3c21462] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [77b194cf-cb85-4bc0-8e24-4f38d3156364] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:49:04	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [d55ef5d3-4544-4f26-98ab-c399b10d7f55] write message err: websocket: close sent
+2023-07-23 01:50:14	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:53623websocket: close 1001 (going away)
+2023-07-23 01:50:14	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:56637websocket: close 1001 (going away)
+2023-07-23 01:50:14	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:58234websocket: close 1001 (going away)
+2023-07-23 01:50:14	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [23d915f4-829b-45af-a9c9-1cd4aa564583] write message err: websocket: close sent
+2023-07-23 01:50:14	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [08abf6ca-9c56-4cda-a5ac-5b50f1587541] write message err: websocket: close sent
+2023-07-23 01:50:14	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [23d915f4-829b-45af-a9c9-1cd4aa564583] write message err: websocket: close sent
+2023-07-23 01:50:43	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:58375websocket: close 1001 (going away)
+2023-07-23 01:50:43	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:60156websocket: close 1001 (going away)
+2023-07-23 01:50:43	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [f230d2c2-522c-4b1e-8ae3-dac0dadbfb6a] write message err: websocket: close sent
+2023-07-23 01:51:06	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:61749websocket: close 1001 (going away)
+2023-07-23 01:51:06	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:60367websocket: close 1001 (going away)
+2023-07-23 01:51:06	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [50f6ecff-ef59-47a8-8f6e-3be2e5fa71a3] write message err: websocket: close sent
+2023-07-23 01:52:02	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:65465websocket: close 1001 (going away)
+2023-07-23 01:52:04	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:49427websocket: close 1001 (going away)
+2023-07-23 01:53:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:54282websocket: close 1001 (going away)
+2023-07-23 01:53:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:49634websocket: close 1001 (going away)
+2023-07-23 01:53:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [76f51bbe-b81c-4ede-b5eb-ea106b3d08d8] write message err: websocket: close sent
+2023-07-23 01:54:20	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:58858websocket: close 1001 (going away)
+2023-07-23 01:54:20	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:54499websocket: close 1001 (going away)
+2023-07-23 01:54:20	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [a45ec5de-5bca-48a1-90e0-26dc11f84bd3] write message err: websocket: close sent
+2023-07-23 03:42:05	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:60888websocket: close 1001 (going away)
+2023-07-23 13:23:35	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:25	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:32	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:38	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:52	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:54	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:54	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:38:55	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:49:36	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:49:59	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:01	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:01	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:23	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:31	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:32	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:32	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:50:44	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:51:16	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:53:33	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:53:34	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:53:35	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:53:36	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:uuuu, 错误信息: redis: nil
+2023-07-23 13:53:47	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:xxx, 错误信息: redis: nil
+2023-07-23 13:53:50	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:xxx, 错误信息: redis: nil
+2023-07-23 13:57:33	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:xxx, 错误信息: redis: nil
+2023-07-23 13:57:51	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:xxx, 错误信息: redis: nil
+2023-07-23 13:57:51	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:xxx, 错误信息: redis: nil
+2023-07-23 16:26:29	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:64049websocket: close 1001 (going away)
+2023-07-23 16:30:20	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:64197websocket: close 1001 (going away)
+2023-07-23 16:31:15	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:64086websocket: close 1001 (going away)
+2023-07-23 16:31:15	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:51298websocket: close 1001 (going away)
+2023-07-23 16:31:15	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [969d0074-6ae2-4122-85eb-0f8e3515950a] write message err: websocket: close sent
+2023-07-23 16:40:07	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:51437websocket: close 1001 (going away)
+2023-07-23 16:43:24	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:54893websocket: close 1001 (going away)
+2023-07-23 16:43:57	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:52029websocket: close 1001 (going away)
+2023-07-23 17:11:12	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:7pJe1, 错误信息: redis: nil
+2023-07-23 17:11:32	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:7pJe1, 错误信息: redis: nil
+2023-07-23 17:11:34	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:7pJe1, 错误信息: redis: nil
+2023-07-23 17:11:44	ERROR	cache/file_cache.go:31	share.ac.cn/cache._getFileOnlineInfo	GetFileOnlineInfo: acc:file:online:7pJe1, 错误信息: redis: nil
+2023-07-23 17:22:50	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59892websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-23 17:22:50	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59893websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-23 17:22:50	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).Write	client [4db50948-d9f4-40c9-8d2c-561fe2766371] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59893: use of closed network connection
+2023-07-23 17:22:52	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:52042websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-23 17:22:52	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:52043websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-23 22:22:18	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:53098websocket: close 1001 (going away)
+2023-07-23 22:35:07	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:57875websocket: close 1001 (going away)
+2023-07-23 22:35:11	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59528websocket: close 1001 (going away)
+2023-07-23 22:35:16	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:59803websocket: close 1001 (going away)
+2023-07-23 22:39:45	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).Read	读取客户端数据错误:127.0.0.1:60080websocket: close 1006 (abnormal closure): unexpected EOF

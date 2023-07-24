@@ -66,3 +66,14 @@ func SetUserOnlineInfo(userKey string, userOnline *model.UserOnline) (err error)
 
 	return
 }
+
+// DelUserOnlineInfo 删除redis中的用户数据
+func DelUserOnlineInfo(userKey string) (err error) {
+	key := getUserOnlineKey(userKey)
+	number, err := common.GetClient().Del(key).Result()
+	if err != nil {
+		common.Log.Info("DelUserOnlineInfo", key, number, err)
+		return
+	}
+	return
+}

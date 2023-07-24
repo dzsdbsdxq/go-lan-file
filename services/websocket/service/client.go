@@ -1,8 +1,10 @@
 package service
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
+	jsoniter "github.com/json-iterator/go"
 	uuid "github.com/satori/go.uuid"
 	"runtime/debug"
 	"share.ac.cn/common"
@@ -42,7 +44,7 @@ func NewClient(ctx *gin.Context, group string, addr string, socket *websocket.Co
 }
 
 // 读信息，从 websocket 连接直接读取数据
-func (c *Client) Read() {
+func (c *Client) read() {
 	defer func() {
 		if r := recover(); r != nil {
 			common.Log.Info("write stop", string(debug.Stack()), r)
@@ -70,7 +72,7 @@ func (c *Client) Read() {
 }
 
 // 写信息，从 channel 变量 Send 中读取数据写入 websocket 连接
-func (c *Client) Write() {
+func (c *Client) write() {
 	defer func() {
 		if r := recover(); r != nil {
 			common.Log.Error("write stop:", string(debug.Stack()), r)
@@ -106,6 +108,27 @@ func (c *Client) Login(user *model.UserOnline) {
 	c.LoginTime = time.Now()
 	// 登录成功=心跳一次
 	c.HeartBeat()
+}
+func (c *Client) SendMsg(msg interface{}) {
+	if c == nil {
+		return
+	}
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Println("SendMsg stop:", r, string(debug.Stack()))
+		}
+	}()
+	data := MessageData{
+		Head: &Head{
+			Seq:     common.GetRandomId(11),
+			Cmd:     "complete",
+			Message: msg,
+		},
+		Id:    c.Id,
+		Group: c.Group,
+	}
+	marshal, _ := jsoniter.Marshal(data)
+	c.Message <- marshal
 }
 
 // HeartBeat 用户心跳

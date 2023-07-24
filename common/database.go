@@ -1,9 +1,10 @@
 package common
 
 import (
+	"time"
+
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"time"
 )
 
 var db *gorm.DB

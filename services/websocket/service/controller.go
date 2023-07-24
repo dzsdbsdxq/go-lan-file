@@ -55,7 +55,6 @@ func LoginController(client *Client, seq string, message []byte) (code uint32, m
 	if err != nil {
 		code = common.ServerError
 		fmt.Println("用户登录 SetUserOnlineInfo", seq, err)
-
 		return
 	}
 

@@ -7,8 +7,10 @@ import (
 	"os"
 	"os/signal"
 	"share.ac.cn/common"
+	"share.ac.cn/common/tusd"
 	"share.ac.cn/config"
 	"share.ac.cn/routers"
+	"share.ac.cn/services/task"
 	"share.ac.cn/services/websocket/service"
 	"syscall"
 	"time"
@@ -26,12 +28,13 @@ func main() {
 	//初始化Redis
 	common.InitRedisClient()
 	// 定时任务
-	//task.CleanExpireFileInit()
+	task.CleanExpireFileInit()
 	//初始化Tusd服务
-	common.NewTusdServer()
+	tusd.NewTusdServer()
 
 	//go websocket.StartWebSocket()
 	go service.StartWebSocket()
+
 	// 注册所有路由
 	r := routers.InitRoutes()
 

@@ -6,6 +6,12 @@ system:
   # 程序监听端口
   port: 10000
   ws-port: 10000
+  # rsa公钥文件路径(config.yml相对路径, 也可以填绝对路径)
+  rsa-public-key: rsa-pub.pem
+  # rsa私钥文件路径(config.yml相对路径, 也可以填绝对路径)
+  rsa-private-key: rsa-priv.pem
+  # web路径
+  http-base-web: http://localhost:8080/
 
 file:
   # 文件根路径,如果为空，则默认以项目所在目录
@@ -24,6 +30,17 @@ file:
   file-sum-arithmetic: md5
   # 文件是否去重": "默认去重",
   enable-distinct-file: true
+
+# jwt配置
+jwt:
+  # jwt标识
+  realm: share-ac-cn
+  # 服务端密钥
+  key: SHARE-N7Ak8hgzOySANmkD2C2OR11jhRW8dpBGTJSgUsE
+  # token过期时间, 小时
+  timeout: 12
+  # 刷新token最大过期时间, 小时
+  max-refresh: 12
 
 logs:
   # 日志等级(-1:Debug, 0:Info, 1:Warn, 2:Error, 3:DPanic, 4:Panic, 5:Fatal, -1<=level<=5, 参照zap.level源码)

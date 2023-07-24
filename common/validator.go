@@ -1,11 +1,12 @@
 package common
 
 import (
+	"regexp"
+
 	"github.com/go-playground/locales/zh"
 	ut "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
 	ch_translations "github.com/go-playground/validator/v10/translations/zh"
-	"regexp"
 )
 
 // Validate 全局Validate数据校验实列

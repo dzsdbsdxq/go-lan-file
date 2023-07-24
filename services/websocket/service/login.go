@@ -1,7 +1,6 @@
 package service
 
 import (
-	"fmt"
 	"sync"
 )
 
@@ -19,8 +18,6 @@ func (login *LoginUsers) AddUsers(client *Client) {
 
 // DelUsers 删除登录用户
 func (login *LoginUsers) DelUsers(client *Client) (result bool) {
-	fmt.Println(client.User)
-	fmt.Println(login.Users)
 	if value, ok := login.Users[client.User.UserId]; ok {
 		// 判断是否为相同的用户
 		if value.Addr != client.Addr {
@@ -29,6 +26,10 @@ func (login *LoginUsers) DelUsers(client *Client) (result bool) {
 		delete(login.Users, client.User.UserId)
 		result = true
 	}
+	return
+}
+func (login *LoginUsers) GetUserClient(userId string) (value *Client, ok bool) {
+	value, ok = login.Users[userId]
 	return
 }
 func NewLoginUsers() *LoginUsers {

@@ -4,11 +4,12 @@ package unique
 
 import (
 	"math/rand"
-	"share.ac.cn/common/autoinc"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"share.ac.cn/common/autoinc"
 )
 
 var stringInst, numberInst, dateInst *Unique

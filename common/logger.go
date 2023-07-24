@@ -2,12 +2,13 @@ package common
 
 import (
 	"fmt"
+	"os"
+	"time"
+
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
-	"os"
 	"share.ac.cn/config"
-	"time"
 )
 
 // Log 全局日志变量
