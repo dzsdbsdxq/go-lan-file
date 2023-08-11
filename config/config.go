@@ -22,6 +22,7 @@ type config struct {
 	Redis     *RedisConfig     `mapstructure:"redis" json:"redis"`
 	Jwt       *JwtConfig       `mapstructure:"jwt" json:"jwt"`
 	RateLimit *RateLimitConfig `mapstructure:"rate-limit" json:"rateLimit"`
+	QinNiu    *QiniuConfig     `mapstructure:"qiniu" json:"qiniu"`
 }
 
 func InitConfig() {
@@ -108,4 +109,12 @@ type RedisConfig struct {
 type RateLimitConfig struct {
 	FillInterval int64 `mapstructure:"fill-interval" json:"fillInterval"`
 	Capacity     int64 `mapstructure:"capacity" json:"capacity"`
+}
+type QiniuConfig struct {
+	Zone        string `mapstructure:"zone" json:"zone"`
+	Bucket      string `mapstructure:"bucket" json:"bucket"`
+	DownUrl     string `mapstructure:"down-url" json:"down-url"`
+	CallbackUrl string `mapstructure:"callback-url" json:"callback-url"`
+	AccessKey   string `mapstructure:"access-key" json:"access-key"`
+	SecretKey   string `mapstructure:"secret-key" json:"secret-key"`
 }

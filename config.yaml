@@ -12,6 +12,13 @@ system:
   rsa-private-key: rsa-priv.pem
   # web路径
   http-base-web: http://localhost:8080/
+qiniu:
+  zone: ZoneHuaDong
+  bucket: fileski
+  down-url: "https://dl.ido.icu"
+  callback-url: ""
+  access-key: DlvKNmubXIi3brmIRihwg9AgZASxVyEinRF7LEQl
+  secret-key: CEj4bxlfPDND0DH8DiD0V9Q61RS2b6tkykv8D5II
 
 file:
   # 文件根路径,如果为空，则默认以项目所在目录

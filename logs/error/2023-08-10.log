@@ -1,0 +1,955 @@
+2023-08-10 14:52:25	ERROR	cache/file_cache.go:73	share.ac.cn/cache.GetFileOnlineAll	GetFileOnlineAll Err:dial tcp 127.0.0.1:6379: connect: connection refused
+2023-08-10 14:52:55	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:53:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:53:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:54:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:54:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:55:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:55:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:56:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:56:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:57:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:57:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:58:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:58:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:59:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 14:59:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:00:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:00:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:01:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:01:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:02:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:02:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:03:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:03:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:04:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:04:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:05:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:05:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:06:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:06:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:07:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:07:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:08:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:08:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:09:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:09:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:10:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:10:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:11:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:11:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:12:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:12:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:13:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:13:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:14:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:14:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:15:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:15:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:16:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:16:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:17:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:17:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:18:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:18:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:19:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:19:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:20:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:20:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:21:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:21:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:22:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:22:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:23:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:23:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:24:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:24:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:25:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:25:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:26:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:26:32	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:27:02	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:27:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:28:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:28:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:29:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:29:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:30:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:30:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:31:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:31:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:32:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:32:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:33:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:33:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:34:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:34:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:35:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:35:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:36:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:36:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:37:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:37:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:38:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:38:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:39:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:39:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:40:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:40:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:41:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:41:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:42:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:42:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:43:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:43:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:44:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:44:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:45:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:45:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:46:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:46:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:47:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:47:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:48:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:48:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:49:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:49:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:50:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:50:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:51:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:51:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:52:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:52:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:53:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:53:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:54:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:54:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:54:49	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:54965websocket: close 1001 (going away)
+2023-08-10 15:54:49	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:64898websocket: close 1001 (going away)
+2023-08-10 15:54:49	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:55991websocket: close 1001 (going away)
+2023-08-10 15:54:49	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53368websocket: close 1001 (going away)
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [9fb0a40e-cb7e-4f8d-b111-2415ee2f32a4] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [41a35e2a-a488-4ab2-8734-5db3998c3894] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e893ca76-50dc-4df0-90a5-aa10a0805e99] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [41a35e2a-a488-4ab2-8734-5db3998c3894] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e893ca76-50dc-4df0-90a5-aa10a0805e99] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [41a35e2a-a488-4ab2-8734-5db3998c3894] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [41a35e2a-a488-4ab2-8734-5db3998c3894] write message err: websocket: close sent
+2023-08-10 15:54:49	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [41a35e2a-a488-4ab2-8734-5db3998c3894] write message err: websocket: close sent
+2023-08-10 15:55:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:55:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:56:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:56:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:57:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:57:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:57:52	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:55997websocket: close 1001 (going away)
+2023-08-10 15:58:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:58:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:59:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 15:59:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:00:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:00:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:01:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:01:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:02:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:02:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:03:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:03:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:04:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:04:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:05:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:05:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:06:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:06:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:07:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:07:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:08:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:08:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:09:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:09:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:10:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:10:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:11:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:11:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:12:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:12:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:13:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:13:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:56425websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:64281websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:54966read tcp 127.0.0.1:10000->127.0.0.1:54966: read: connection reset by peer
+2023-08-10 16:13:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:55992websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53367websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5bca73c0-b4fe-468c-a193-961731b1c82e] write message err: write tcp 127.0.0.1:10000->127.0.0.1:55992: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [4143fb4d-8bca-44f3-aa64-a3ab50af62d3] write message err: write tcp 127.0.0.1:10000->127.0.0.1:64281: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [4143fb4d-8bca-44f3-aa64-a3ab50af62d3] write message err: write tcp 127.0.0.1:10000->127.0.0.1:64281: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5bca73c0-b4fe-468c-a193-961731b1c82e] write message err: write tcp 127.0.0.1:10000->127.0.0.1:55992: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [7b5f62e3-387e-4b8e-9887-66d5476f566b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:54966: write: broken pipe
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f6688fb7-7e8f-4417-9438-03848ac5c30b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53367: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [7b5f62e3-387e-4b8e-9887-66d5476f566b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:54966: write: broken pipe
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f6688fb7-7e8f-4417-9438-03848ac5c30b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53367: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5bca73c0-b4fe-468c-a193-961731b1c82e] write message err: write tcp 127.0.0.1:10000->127.0.0.1:55992: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [7b5f62e3-387e-4b8e-9887-66d5476f566b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:54966: write: broken pipe
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f6688fb7-7e8f-4417-9438-03848ac5c30b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53367: use of closed network connection
+2023-08-10 16:13:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f6688fb7-7e8f-4417-9438-03848ac5c30b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53367: use of closed network connection
+2023-08-10 16:13:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62498websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62513websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62499websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62510websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62518websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e8be2d8b-13aa-4d4b-8e17-b93d58165d75] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62513: use of closed network connection
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [bff41332-4527-43eb-b031-3e609a75eb74] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62499: write: broken pipe
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [2c87404f-d970-4aab-9847-1cf82406cc3d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62518: write: broken pipe
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [2c87404f-d970-4aab-9847-1cf82406cc3d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62518: write: broken pipe
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [2c87404f-d970-4aab-9847-1cf82406cc3d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62518: write: broken pipe
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [47a60922-7ce5-4607-a7e7-44449be3c5e1] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62510: use of closed network connection
+2023-08-10 16:13:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [47a60922-7ce5-4607-a7e7-44449be3c5e1] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62510: use of closed network connection
+2023-08-10 16:13:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:14:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:18:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:18:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:19:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:19:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:20:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:20:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:21:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:21:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:22:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:22:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:23:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:23:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:24:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:24:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:25:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:25:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:26:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:26:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:27:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:27:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:28:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:28:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:29:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:29:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:30:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:30:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:31:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:31:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:32:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:32:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:33:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:33:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:34:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:34:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:35:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:35:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:36:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:36:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:37:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:37:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:38:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:38:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:39:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:39:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:40:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:40:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:41:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:41:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:42:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:42:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:43:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:43:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:44:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:44:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:45:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:45:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:46:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:46:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:47:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:47:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:48:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:48:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:49:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:49:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:50:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:50:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:51:05	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:51:35	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:51:54	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:52:24	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:52:54	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:53:24	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:53:54	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:54:24	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:54:54	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:55:24	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:55:54	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:56:07	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:56:37	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:56:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:57:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:57:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:58:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:58:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:59:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 16:59:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:00:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:00:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:01:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:01:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:02:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:02:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:03:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:03:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:04:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:04:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:05:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:05:48	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:06:18	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:06:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:07:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:07:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:08:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:08:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:09:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:09:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:10:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:10:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:11:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:11:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:12:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:12:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:13:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:13:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:14:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:14:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:15:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:15:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:16:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:16:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:17:01	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:17:30	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:61344websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:30	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:61345websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:30	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:61348websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:30	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:61346read tcp 127.0.0.1:10000->127.0.0.1:61346: read: connection reset by peer
+2023-08-10 17:17:30	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:61349websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [28b03e21-ab93-470f-a17c-24d1d9170aad] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61345: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c9a2fafb-136b-459f-9113-c251b57dbaf4] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61349: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c6666d6d-5c92-4f9c-a4fa-3001ace3f210] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61348: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c6666d6d-5c92-4f9c-a4fa-3001ace3f210] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61348: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c9a2fafb-136b-459f-9113-c251b57dbaf4] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61349: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [28b03e21-ab93-470f-a17c-24d1d9170aad] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61345: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [0f44db63-a18c-433e-8a94-d8afcae36285] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61346: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c6666d6d-5c92-4f9c-a4fa-3001ace3f210] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61348: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [0f44db63-a18c-433e-8a94-d8afcae36285] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61346: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c9a2fafb-136b-459f-9113-c251b57dbaf4] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61349: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c6666d6d-5c92-4f9c-a4fa-3001ace3f210] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61348: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c6666d6d-5c92-4f9c-a4fa-3001ace3f210] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61348: use of closed network connection
+2023-08-10 17:17:30	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c9a2fafb-136b-459f-9113-c251b57dbaf4] write message err: write tcp 127.0.0.1:10000->127.0.0.1:61349: use of closed network connection
+2023-08-10 17:17:31	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:17:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62151websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62162websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62163websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62161websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62160websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6ec073a7-4cfa-459c-b151-9b2df38c357c] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62160: use of closed network connection
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [2150cd5d-b5c3-4578-a328-ebe78c69a83e] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62163: use of closed network connection
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [2bf3d680-bdd0-4914-9dcd-031af7de7b82] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62162: use of closed network connection
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [2150cd5d-b5c3-4578-a328-ebe78c69a83e] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62163: use of closed network connection
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6ec073a7-4cfa-459c-b151-9b2df38c357c] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62160: use of closed network connection
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6ec073a7-4cfa-459c-b151-9b2df38c357c] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62160: use of closed network connection
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:17:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6da8ac03-d6f1-4672-b9d4-77ad126d5e0d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:62161: write: broken pipe
+2023-08-10 17:25:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:25:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:26:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:26:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:27:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:27:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:28:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:28:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:29:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:29:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:30:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:30:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:31:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:31:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:32:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:32:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:33:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:33:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:34:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:34:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:35:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:35:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:36:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:36:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:37:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:37:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:38:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:38:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:39:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:39:33	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:40:03	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:40:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:41:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:41:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:42:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:42:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:43:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:43:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:44:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:44:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:45:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:45:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:46:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:46:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:47:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:47:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:48:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:52:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:53:07	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50486websocket: close 1001 (going away)
+2023-08-10 17:53:07	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50502websocket: close 1001 (going away)
+2023-08-10 17:53:07	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50511websocket: close 1001 (going away)
+2023-08-10 17:53:07	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50493websocket: close 1001 (going away)
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [351ed206-f968-49e0-b6db-b48a758f4c0f] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [bc5c4ac4-0e6d-4df4-bc2a-fd2e776e9b8a] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [82eebbd0-0275-4f0d-9e4f-88df1bef7a4e] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [351ed206-f968-49e0-b6db-b48a758f4c0f] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [82eebbd0-0275-4f0d-9e4f-88df1bef7a4e] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [351ed206-f968-49e0-b6db-b48a758f4c0f] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [82eebbd0-0275-4f0d-9e4f-88df1bef7a4e] write message err: websocket: close sent
+2023-08-10 17:53:07	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [82eebbd0-0275-4f0d-9e4f-88df1bef7a4e] write message err: websocket: close sent
+2023-08-10 17:53:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:53:24	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50519websocket: close 1001 (going away)
+2023-08-10 17:53:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:54:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:54:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:55:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:55:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:56:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:56:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:57:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:57:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:58:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:58:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:59:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 17:59:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:00:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:00:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:01:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:01:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:02:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:02:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:03:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:03:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:04:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:04:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:05:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:05:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:06:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:06:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:07:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:07:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:08:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:08:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:09:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:09:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:10:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:10:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:11:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:11:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:12:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:12:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:13:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:13:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:14:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:14:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:15:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:15:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:16:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:16:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:17:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:17:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:18:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:18:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:19:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:19:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:20:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:20:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:21:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:21:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:22:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:22:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:23:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:23:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:24:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:24:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:25:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:25:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:26:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:26:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:27:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:27:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:28:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:28:40	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:29:10	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:29:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:30:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:30:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:31:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:31:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:32:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:32:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:33:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:33:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:34:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:34:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:35:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:35:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:36:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:36:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:37:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:37:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:38:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:38:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:39:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:39:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:40:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:40:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:41:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:41:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:42:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:42:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:43:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:43:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:44:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:44:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:45:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:45:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:46:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:46:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:47:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:47:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:48:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:48:41	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 18:49:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50594websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-10 18:49:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:50499read tcp 127.0.0.1:10000->127.0.0.1:50499: read: connection reset by peer
+2023-08-10 18:49:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a1d16779-e892-406c-aca1-57fe4239848d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:50499: use of closed network connection
+2023-08-10 18:49:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 20:49:39	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 23:45:11	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-10 23:46:22	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 01:46:53	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 03:47:23	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 05:47:54	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 06:50:34	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 06:51:04	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:03:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:04:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:04:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:05:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:05:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:06:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:06:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:07:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:07:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:08:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:08:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:09:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:09:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:10:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:10:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:11:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:11:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:12:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:12:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:13:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:13:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:14:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:14:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:15:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:15:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:16:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:16:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:17:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:17:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:18:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:18:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:19:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:19:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:20:06	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:55682websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 09:20:06	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:55677websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 09:20:06	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [1d8f7798-a7da-46bb-823c-526edf9eedea] write message err: write tcp 127.0.0.1:10000->127.0.0.1:55677: use of closed network connection
+2023-08-11 09:20:11	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:64278websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 09:20:11	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:64283websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 09:20:11	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [0be63f0a-82b9-4aee-97c2-34b2fdcb7389] write message err: write tcp 127.0.0.1:10000->127.0.0.1:64283: use of closed network connection
+2023-08-11 09:20:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:43:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:43:58	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:44:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:44:58	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:45:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:45:58	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:46:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:46:58	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:47:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:47:58	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:48:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:48:58	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:49:28	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:49:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:50:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:50:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:51:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:51:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:52:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:52:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:53:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:53:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:54:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:54:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:55:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:55:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:56:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:56:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:57:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:57:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:58:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:58:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:59:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 09:59:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:00:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:00:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:01:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:01:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:02:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:02:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:03:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:03:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:04:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:04:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:05:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:05:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:06:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:06:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:07:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:07:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:08:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:08:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:09:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:09:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:10:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:10:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:11:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:11:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:12:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:12:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:13:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:13:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:14:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:14:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:15:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:15:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:16:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:16:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:17:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:17:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:18:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:18:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:19:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:19:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:20:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:20:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:21:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:21:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:22:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:22:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:23:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:23:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:24:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:24:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:25:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:25:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:26:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:26:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:27:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:27:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:28:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:28:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:29:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:29:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:30:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:30:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:31:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:31:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:32:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:32:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:33:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:33:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:34:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:34:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:35:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:35:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:36:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:36:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:37:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:37:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:38:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:38:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:39:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:39:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:40:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:40:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:41:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:41:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:42:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:42:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:43:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:43:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:44:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:44:43	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:64319websocket: close 1001 (going away)
+2023-08-11 10:44:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:45:18	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:57807websocket: close 1001 (going away)
+2023-08-11 10:45:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:45:32	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:57992websocket: close 1001 (going away)
+2023-08-11 10:45:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:46:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:46:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58087websocket: close 1001 (going away)
+2023-08-11 10:46:58	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58417websocket: close 1001 (going away)
+2023-08-11 10:46:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:47:26	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58530websocket: close 1001 (going away)
+2023-08-11 10:47:28	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58674websocket: close 1001 (going away)
+2023-08-11 10:47:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:47:32	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58685websocket: close 1001 (going away)
+2023-08-11 10:47:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:48:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:48:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:49:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:49:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:50:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:50:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:51:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:51:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:52:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:52:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:53:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:53:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:54:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:54:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:55:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:55:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:56:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:56:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:57:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:57:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:58:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:58:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:59:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 10:59:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:00:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:00:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:01:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:01:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:02:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:02:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:03:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:03:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:04:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:04:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:05:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:05:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:06:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:06:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:07:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:07:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:08:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:08:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:09:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:09:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:10:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:10:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:11:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:11:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:12:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:12:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:13:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:13:59	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:59331websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58710websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:64322websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:59494websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:59252websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:49271websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:49363websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [89ee34b1-8103-450b-9d7d-04f1e7fccf2d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59252: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [6dfeb029-5971-4268-b850-a2b1eb7f9186] write message err: write tcp 127.0.0.1:10000->127.0.0.1:58710: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [285cc57b-e5ff-48b7-9e8a-6a5c80599ba6] write message err: write tcp 127.0.0.1:10000->127.0.0.1:64322: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5955afa6-e1a2-40d1-845b-da704d86fc5b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49363: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e701c57a-a278-4e0c-b531-a2c3d5c6d963] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59494: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [13f11154-dfc9-499d-abfc-e495631c59ed] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49271: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e701c57a-a278-4e0c-b531-a2c3d5c6d963] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59494: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [89ee34b1-8103-450b-9d7d-04f1e7fccf2d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59252: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5955afa6-e1a2-40d1-845b-da704d86fc5b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49363: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [89ee34b1-8103-450b-9d7d-04f1e7fccf2d] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59252: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e701c57a-a278-4e0c-b531-a2c3d5c6d963] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59494: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e701c57a-a278-4e0c-b531-a2c3d5c6d963] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59494: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [13f11154-dfc9-499d-abfc-e495631c59ed] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49271: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5955afa6-e1a2-40d1-845b-da704d86fc5b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49363: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [13f11154-dfc9-499d-abfc-e495631c59ed] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49271: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e701c57a-a278-4e0c-b531-a2c3d5c6d963] write message err: write tcp 127.0.0.1:10000->127.0.0.1:59494: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5955afa6-e1a2-40d1-845b-da704d86fc5b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49363: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5955afa6-e1a2-40d1-845b-da704d86fc5b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49363: use of closed network connection
+2023-08-11 11:14:17	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [5955afa6-e1a2-40d1-845b-da704d86fc5b] write message err: write tcp 127.0.0.1:10000->127.0.0.1:49363: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53917websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53918websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53921websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53920websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53919websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53929websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53927websocket: close 1006 (abnormal closure): unexpected EOF
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [219e6e1c-ea0b-4119-935d-7a9e735aceae] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53921: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [1268813a-f14d-4027-97e5-4a2e3b5371f9] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53918: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [0cf61fdd-f102-4f67-8374-c6823a066188] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53919: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [0cf61fdd-f102-4f67-8374-c6823a066188] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53919: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [186e50ea-86be-44ca-ad9e-db26d5b0fde5] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53929: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [0cf61fdd-f102-4f67-8374-c6823a066188] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53919: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e6dfc528-17ad-458a-a3b1-e00877722334] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53920: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [186e50ea-86be-44ca-ad9e-db26d5b0fde5] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53929: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [186e50ea-86be-44ca-ad9e-db26d5b0fde5] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53929: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [219e6e1c-ea0b-4119-935d-7a9e735aceae] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53921: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [219e6e1c-ea0b-4119-935d-7a9e735aceae] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53921: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e6dfc528-17ad-458a-a3b1-e00877722334] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53920: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [186e50ea-86be-44ca-ad9e-db26d5b0fde5] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53929: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e6dfc528-17ad-458a-a3b1-e00877722334] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53920: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [707cc8c8-8d05-402c-b899-f01505806695] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53927: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [707cc8c8-8d05-402c-b899-f01505806695] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53927: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e6dfc528-17ad-458a-a3b1-e00877722334] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53920: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [707cc8c8-8d05-402c-b899-f01505806695] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53927: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [707cc8c8-8d05-402c-b899-f01505806695] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53927: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e6dfc528-17ad-458a-a3b1-e00877722334] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53920: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [707cc8c8-8d05-402c-b899-f01505806695] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53927: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [e6dfc528-17ad-458a-a3b1-e00877722334] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53920: use of closed network connection
+2023-08-11 11:14:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [707cc8c8-8d05-402c-b899-f01505806695] write message err: write tcp 127.0.0.1:10000->127.0.0.1:53927: use of closed network connection
+2023-08-11 11:14:29	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:21:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:22:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:22:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:23:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:23:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:24:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:24:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:25:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:25:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:26:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:26:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:27:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:27:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:28:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:28:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:29:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:29:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:30:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:30:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:54758websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53952websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:54293websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:54585websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:54606websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53954websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53962websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53948websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53953websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53961websocket: close 1001 (going away)
+2023-08-11 11:31:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:08	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c00b38d3-de75-4f5f-9bf1-79fb1c1c18a6] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [1e55b1a8-7397-4927-9493-1bc860232d3d] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [3f6eb98e-a648-497b-bd7a-fb8464ba532d] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a34d1fb3-f071-43dc-afe4-d1133dd7d5aa] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [dafb73ef-31ca-4012-8bb9-88daf7b8b7a1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [1e55b1a8-7397-4927-9493-1bc860232d3d] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [3f6eb98e-a648-497b-bd7a-fb8464ba532d] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a34d1fb3-f071-43dc-afe4-d1133dd7d5aa] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c00b38d3-de75-4f5f-9bf1-79fb1c1c18a6] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [3f6eb98e-a648-497b-bd7a-fb8464ba532d] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a34d1fb3-f071-43dc-afe4-d1133dd7d5aa] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c00b38d3-de75-4f5f-9bf1-79fb1c1c18a6] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a34d1fb3-f071-43dc-afe4-d1133dd7d5aa] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [c00b38d3-de75-4f5f-9bf1-79fb1c1c18a6] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a34d1fb3-f071-43dc-afe4-d1133dd7d5aa] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a189d913-73b6-4f19-9440-c826db4bc4c1] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [05e092ff-fe1b-4b1a-ae06-5e740d15601c] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [f760decf-1fce-43c6-8eb0-c13af66701bf] write message err: websocket: close sent
+2023-08-11 11:31:09	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [df07b85d-e0a9-4f60-8d82-4093a86787d1] write message err: websocket: close sent
+2023-08-11 11:31:18	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:53951websocket: close 1001 (going away)
+2023-08-11 11:31:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:31:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:32:15	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:57993websocket: close 1001 (going away)
+2023-08-11 11:32:15	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:57706websocket: close 1001 (going away)
+2023-08-11 11:32:15	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [48ddefba-c46c-4ff6-aafb-35456229d35e] write message err: websocket: close sent
+2023-08-11 11:32:15	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [48ddefba-c46c-4ff6-aafb-35456229d35e] write message err: websocket: close sent
+2023-08-11 11:32:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:32:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58104websocket: close 1001 (going away)
+2023-08-11 11:32:36	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58012websocket: close 1001 (going away)
+2023-08-11 11:32:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [26d457d3-0d7d-4460-9e5b-cb9a85c2dcd5] write message err: websocket: close sent
+2023-08-11 11:32:36	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [26d457d3-0d7d-4460-9e5b-cb9a85c2dcd5] write message err: websocket: close sent
+2023-08-11 11:32:49	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58117websocket: close 1001 (going away)
+2023-08-11 11:32:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:33:15	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58195websocket: close 1001 (going away)
+2023-08-11 11:33:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:33:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:34:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:34:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:35:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:35:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:35:52	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:59472websocket: close 1001 (going away)
+2023-08-11 11:35:52	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:58573websocket: close 1001 (going away)
+2023-08-11 11:35:52	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:59479websocket: close 1001 (going away)
+2023-08-11 11:35:52	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [42f47766-b8f3-4288-9b58-b91e3acd4b5c] write message err: websocket: close sent
+2023-08-11 11:35:52	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [8a100911-45ba-4271-900d-78aa300bdfe9] write message err: websocket: close sent
+2023-08-11 11:35:52	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [42f47766-b8f3-4288-9b58-b91e3acd4b5c] write message err: websocket: close sent
+2023-08-11 11:36:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:36:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:37:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:37:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:38:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:38:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:39:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:39:38	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:60749websocket: close 1001 (going away)
+2023-08-11 11:39:38	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:59593websocket: close 1001 (going away)
+2023-08-11 11:39:38	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [a7654bb9-8365-4c7e-9aba-67bf3883330e] write message err: websocket: close sent
+2023-08-11 11:39:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:40:19	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在
+2023-08-11 11:40:49	ERROR	task/file_clean_task.go:35	share.ac.cn/services/task.cleanExpireFile	删除文件出错：文件ID：27c8b4608f9e225f7a1ab9919016978e，错误信息文件不存在

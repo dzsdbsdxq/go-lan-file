@@ -4,21 +4,80 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
+	"path"
 	"share.ac.cn/cache"
 	"share.ac.cn/common"
 	"share.ac.cn/common/rsa"
 	"share.ac.cn/config"
 	"share.ac.cn/model"
 	"share.ac.cn/response"
+	"share.ac.cn/services/uploader"
+	"share.ac.cn/services/websocket/service"
+	"strconv"
 	"time"
 )
 
 type IApiController interface {
 	NewConnect(c *gin.Context)
+	CreateUpload(c *gin.Context)
 	GetFileInfo(c *gin.Context)
 	GetFileComplete(c *gin.Context)
+	GetAccessToken(c *gin.Context)
+	CallBack(c *gin.Context)
+	DeleteObject(c *gin.Context)
 }
 type ApiController struct {
+}
+
+func (api *ApiController) CreateUpload(c *gin.Context) {
+	// 获取路径中的fileId
+	userId := c.Param("userId")
+	if userId == "" {
+		response.Fail(c, nil, "ID不正确")
+		return
+	}
+	//判断userId是否在线
+	value, ok := service.LoginUserManager.GetUserClient(userId)
+	if !ok {
+		response.Fail(c, nil, "ID不在线，无法获取Token")
+		return
+	}
+
+	fileName, _ := c.GetPostForm("name")
+
+	fileSize, _ := c.GetPostForm("size")
+	fileSizeS, _ := strconv.Atoi(fileSize)
+
+	//key := fmt.Sprintf("%s%s%s", time.Now().Format("2006/01/02/"), common.GetRandomId(32), path.Ext(fileName))
+	key := fmt.Sprintf("%s%s", time.Now().Format("2006/01/02/"), fileName)
+	tmpOnline := &cache.TmpOnline{
+		ShareId:  common.RandPass(4),
+		FileName: fileName,
+		FileKey:  key,
+		FileSize: uint64(fileSizeS),
+	}
+	err := cache.SetTmpOnline(userId, tmpOnline)
+	if err != nil {
+		response.Fail(c, nil, err.Error())
+		return
+	}
+	token := uploader.GetQiNiuAccessToken()
+	response.Success(c, map[string]interface{}{"token": token, "source": key, "info": value.User}, "success")
+}
+
+func (api *ApiController) CallBack(c *gin.Context) {
+
+}
+func (api *ApiController) DeleteObject(c *gin.Context) {
+	shareId := c.Param("shareId")
+	info, err := cache.GetFileOnlineInfo(shareId)
+	if err != nil {
+		return
+	}
+	err = uploader.DeleteObject(info.FilePath)
+	if err != nil {
+		return
+	}
 }
 
 // NewConnect 创建连接，返回上传通道（userId）
@@ -65,10 +124,6 @@ func (api *ApiController) GetFileInfo(c *gin.Context) {
 		return
 	}
 	fileModel.UpdateViews()
-	token, _ := api.generateToken(shareId)
-	//生成token info.ExpireTime.Unix()
-	url := `http://localhost:10000/files/` + fileModel.FileId + "?sign=" + token
-	//
 	response.Success(c, map[string]interface{}{
 		"file_id":     fileModel.FileId,
 		"uid":         fileModel.Uid,
@@ -80,38 +135,74 @@ func (api *ApiController) GetFileInfo(c *gin.Context) {
 		"expire":      fileModel.ExpiredAt.Unix(),
 		"is_uploaded": fileModel.IsUploaded,
 		"file_ext":    fileModel.FileExt,
-		"url":         url,
+		"url":         uploader.GetQiNiuDownloadUrl(fileModel.FilePath),
 	}, "success")
 
 	return
 
 }
 
+func (api *ApiController) GetAccessToken(c *gin.Context) {
+
+}
+
 func (api *ApiController) GetFileComplete(c *gin.Context) {
-	// 获取路径中的fileId
-	fileId := c.Param("fileId")
-	if fileId == "" {
+	// 获取路径中的userId
+	userId := c.Param("userId")
+	if userId == "" {
 		response.Fail(c, nil, "ID不正确")
 		return
 	}
-	//文件是否存在
-	fileModel := model.Files{}
-	file, err := fileModel.GetFileByFileId(fileId)
-	if err != nil {
-		response.Fail(c, nil, "文件不存在")
-		return
+	fileHash, _ := c.GetPostForm("hash")
+	//获取临时上传文件信息
+	tmpInfo, _ := cache.GetTmpOnlineInfo(userId)
+
+	expireTime := time.Now().Add(24 * time.Hour)
+	fileInfo := &model.Files{
+		Uid:        userId,
+		IsUploaded: 1,
+		IsDel:      1,
+		Views:      0,
+		Downloads:  0,
+		FileSize:   int(tmpInfo.FileSize),
+		ExpiredAt:  expireTime,
+		FileName:   tmpInfo.FileName,
+		FileId:     fileHash,
+		ShareId:    tmpInfo.ShareId,
+		FilePath:   tmpInfo.FileKey,
+		FileExt:    path.Ext(tmpInfo.FileName),
 	}
+	_, _ = fileInfo.AddFiles()
+
+	fileOnline := &model.FileOnline{
+		CreateTime:   time.Now(),
+		ExpireTime:   expireTime,
+		FileSize:     tmpInfo.FileSize,
+		FileViews:    0,
+		FileDowns:    0,
+		ShareId:      tmpInfo.ShareId,
+		FileId:       fileHash,
+		FileName:     tmpInfo.FileName,
+		FilePath:     tmpInfo.FileKey,
+		FileExt:      path.Ext(tmpInfo.FileName),
+		FileHash:     fileHash,
+		FileHashName: "sha1",
+	}
+	_ = cache.SetFileOnline(tmpInfo.ShareId, fileOnline)
+
+	//设置七牛云文件有效期
+	_ = uploader.DeleteAfterDays(tmpInfo.FileKey)
+
 	//不让用户查看文件路径
-	file.FilePath = ""
 	response.Success(c,
 		map[string]interface{}{
-			"file_id":      file.FileId,
-			"create_at":    file.CreatedAt,
-			"expired_at":   file.ExpiredAt,
-			"expired_time": file.ExpiredAt.Unix(),
-			"uid":          file.Uid,
-			"file_size":    file.FileSize,
-			"shareUrl":     config.Conf.System.HttpBaseWeb + file.ShareId,
+			"file_id":      fileHash,
+			"create_at":    time.Now(),
+			"expired_at":   expireTime,
+			"expired_time": expireTime.Unix(),
+			"uid":          userId,
+			"file_size":    tmpInfo.FileSize,
+			"shareUrl":     config.Conf.System.HttpBaseWeb + tmpInfo.ShareId,
 			"complete":     true,
 		}, "success")
 	return
@@ -141,6 +232,7 @@ func (api *ApiController) generateToken(shareId string) (string, error) {
 
 	return rsa.EncodeStr2Base64(tokenString), nil
 }
+
 func NewApiController() IApiController {
 	return &ApiController{}
 }

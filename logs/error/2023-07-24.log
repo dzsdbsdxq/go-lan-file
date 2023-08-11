@@ -351,3 +351,19 @@
 2023-07-24 16:54:22	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:49189websocket: close 1001 (going away)
 2023-07-24 16:54:22	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [7685e7c8-378b-4191-b054-2cff9e90330c] write message err: websocket: close sent
 2023-07-24 16:54:29	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:52429websocket: close 1001 (going away)
+2023-07-24 17:49:23	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:51235websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-24 17:49:23	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:51233websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-24 17:49:23	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:51234websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-24 17:49:23	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [316895b0-fa5a-42d9-aaf2-ba2ac158a0f5] write message err: write tcp 127.0.0.1:10000->127.0.0.1:51234: use of closed network connection
+2023-07-24 17:49:23	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [316895b0-fa5a-42d9-aaf2-ba2ac158a0f5] write message err: write tcp 127.0.0.1:10000->127.0.0.1:51234: use of closed network connection
+2023-07-24 17:49:23	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [b5b73a32-2864-47a7-8b21-68d5d38a35e8] write message err: write tcp 127.0.0.1:10000->127.0.0.1:51233: use of closed network connection
+2023-07-24 19:30:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:52688websocket: close 1001 (going away)
+2023-07-24 19:30:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:52687websocket: close 1001 (going away)
+2023-07-24 19:30:13	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:52689websocket: close 1001 (going away)
+2023-07-24 19:30:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [7f8a2a8b-a1a2-4bcc-9fe1-78ef07205a7e] write message err: websocket: close sent
+2023-07-24 19:30:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [3a46afc1-1e53-408c-bcf3-e4ac77df2bcf] write message err: websocket: close sent
+2023-07-24 19:30:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [7f8a2a8b-a1a2-4bcc-9fe1-78ef07205a7e] write message err: websocket: close sent
+2023-07-24 19:30:13	ERROR	service/client.go:99	share.ac.cn/services/websocket/service.(*Client).write	client [3a46afc1-1e53-408c-bcf3-e4ac77df2bcf] write message err: websocket: close sent
+2023-07-24 19:32:35	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:52969websocket: close 1001 (going away)
+2023-07-24 20:09:46	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:62692websocket: close 1006 (abnormal closure): unexpected EOF
+2023-07-25 09:39:51	ERROR	service/client.go:64	share.ac.cn/services/websocket/service.(*Client).read	读取客户端数据错误:127.0.0.1:56475websocket: close 1001 (going away)

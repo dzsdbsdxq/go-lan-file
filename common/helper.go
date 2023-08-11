@@ -4,6 +4,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"math/rand"
+	"strings"
 	"time"
 
 	uuid "github.com/satori/go.uuid"
@@ -33,4 +34,16 @@ func GetRandomId(length int) (orderId string) {
 		id[i] = charSet[rand.Intn(len(charSet))]
 	}
 	return string(id)
+}
+
+func RandPass(lenNum int) string {
+	var chars = []string{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"}
+	str := strings.Builder{}
+	length := len(chars)
+	rand.Seed(time.Now().UnixNano()) //重新播种，否则值不会变
+	for i := 0; i < lenNum; i++ {
+		str.WriteString(chars[rand.Intn(length)])
+
+	}
+	return str.String()
 }

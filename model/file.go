@@ -37,7 +37,7 @@ func (files *Files) BeforeCreate(scope *gorm.Scope) error {
 }
 
 func (files *Files) GetFileByShareId(shareId string) (file *Files) {
-	common.GetDb().Where("share_id = ?", shareId).First(&files)
+	common.GetDb().Where("share_id = ? AND is_del = ?", shareId, 1).First(&files)
 	return
 }
 func (files *Files) GetFileByFileId(fileId string) (*Files, error) {

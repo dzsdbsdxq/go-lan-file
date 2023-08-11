@@ -11,6 +11,7 @@ import (
 	"share.ac.cn/config"
 	"share.ac.cn/routers"
 	"share.ac.cn/services/task"
+	"share.ac.cn/services/uploader"
 	"share.ac.cn/services/websocket/service"
 	"syscall"
 	"time"
@@ -27,6 +28,9 @@ func main() {
 	common.InitDataBase()
 	//初始化Redis
 	common.InitRedisClient()
+
+	//初始化七牛云
+	uploader.InitQiNiuMac()
 	// 定时任务
 	task.CleanExpireFileInit()
 	//初始化Tusd服务

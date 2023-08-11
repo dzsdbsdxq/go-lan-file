@@ -17,7 +17,7 @@ type Model struct {
 func InitDataBase() {
 	var err error
 
-	db, err = gorm.Open("sqlite3", "./data/data.sqlite3")
+	db, err = gorm.Open("sqlite3", "./data/db_data.db")
 
 	if err != nil {
 		Log.Panicf("初始化sqlite3数据库异常: %v", err)

@@ -4,8 +4,6 @@ import (
 	"fmt"
 	tusd "github.com/tus/tusd/pkg/handler"
 	"math/rand"
-	"share.ac.cn/cache"
-	"share.ac.cn/model"
 	"strings"
 	"time"
 )
@@ -28,42 +26,44 @@ func (f *FileUploadService) RandPass(lenNum int) string {
 	}
 	return str.String()
 }
+
 func (f *FileUploadService) PreFinishResponseCallback(hook tusd.HookEvent) error {
-	userId := hook.HTTPRequest.Header.Get("Authorization")
-	shareId := f.RandPass(4)
-	expireTime := time.Now().Add(24 * time.Hour)
-	fileInfo := &model.Files{
-		Uid:        userId,
-		IsUploaded: 1,
-		IsDel:      1,
-		Views:      0,
-		Downloads:  0,
-		FileSize:   int(hook.Upload.Size),
-		ExpiredAt:  expireTime,
-		FileName:   hook.Upload.MetaData["filename"],
-		FileId:     hook.Upload.ID,
-		ShareId:    shareId,
-		FilePath:   hook.Upload.Storage["Path"],
-		FileExt:    hook.Upload.MetaData["filetype"],
-	}
-	_, _ = fileInfo.AddFiles()
-	fileOnline := &model.FileOnline{
-		CreateTime:   time.Now(),
-		ExpireTime:   expireTime,
-		FileSize:     uint64(hook.Upload.Size),
-		FileViews:    0,
-		FileDowns:    0,
-		ShareId:      shareId,
-		FileId:       hook.Upload.ID,
-		FileName:     hook.Upload.MetaData["filename"],
-		FilePath:     hook.Upload.Storage["Path"],
-		FileExt:      hook.Upload.MetaData["filetype"],
-		FileHash:     "",
-		FileHashName: "",
-	}
-	_ = cache.SetFileOnline(shareId, fileOnline)
+	//userId := hook.HTTPRequest.Header.Get("Authorization")
+	//shareId := f.RandPass(4)
+	//expireTime := time.Now().Add(24 * time.Hour)
+	//fileInfo := &model.Files{
+	//	Uid:        userId,
+	//	IsUploaded: 1,
+	//	IsDel:      1,
+	//	Views:      0,
+	//	Downloads:  0,
+	//	FileSize:   int(hook.Upload.Size),
+	//	ExpiredAt:  expireTime,
+	//	FileName:   hook.Upload.MetaData["filename"],
+	//	FileId:     hook.Upload.ID,
+	//	ShareId:    shareId,
+	//	FilePath:   hook.Upload.Storage["Path"],
+	//	FileExt:    hook.Upload.MetaData["filetype"],
+	//}
+	//_, _ = fileInfo.AddFiles()
+	//fileOnline := &model.FileOnline{
+	//	CreateTime:   time.Now(),
+	//	ExpireTime:   expireTime,
+	//	FileSize:     uint64(hook.Upload.Size),
+	//	FileViews:    0,
+	//	FileDowns:    0,
+	//	ShareId:      shareId,
+	//	FileId:       hook.Upload.ID,
+	//	FileName:     hook.Upload.MetaData["filename"],
+	//	FilePath:     hook.Upload.Storage["Path"],
+	//	FileExt:      hook.Upload.MetaData["filetype"],
+	//	FileHash:     "",
+	//	FileHashName: "",
+	//}
+	//_ = cache.SetFileOnline(shareId, fileOnline)
 	return nil
 }
+
 func (f *FileUploadService) Notify(handler *tusd.UnroutedHandler) {
 	for {
 		select {

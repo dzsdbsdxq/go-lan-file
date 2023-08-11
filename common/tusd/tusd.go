@@ -32,7 +32,7 @@ func NewTusdServer() {
 	// Start another goroutine for receiving events from the handler whenever
 	// an upload is completed. The event will contains details about the upload
 	// itself and the relevant HTTP request.
-	go service.NewFileUploadService().Notify(tusdHandler)
+	//go service.NewFileUploadService().Notify(tusdHandler)
 }
 func GetTusd() *tusd.UnroutedHandler {
 	return tusdHandler

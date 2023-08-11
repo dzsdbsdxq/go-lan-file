@@ -10,10 +10,12 @@ func InitApiRouters(r *gin.RouterGroup, authMiddleware *jwt.GinJWTMiddleware) gi
 	apiController := controller.NewApiController()
 	router := r.Group("/api")
 	{
-
 		router.POST("/newConnect", apiController.NewConnect)
+		router.POST("/file/create/:userId", apiController.CreateUpload)
+		router.POST("/callback", apiController.CallBack)
 		router.GET("/file/:shareId", apiController.GetFileInfo)
-		router.GET("/complete/:fileId", apiController.GetFileComplete)
+		router.GET("/delete/:shareId", apiController.DeleteObject)
+		router.POST("/file/complete/:userId", apiController.GetFileComplete)
 	}
 
 	return r

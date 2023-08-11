@@ -5,6 +5,7 @@ import (
 	"runtime/debug"
 	"share.ac.cn/cache"
 	"share.ac.cn/common"
+	"share.ac.cn/services/uploader"
 	"time"
 )
 
@@ -30,12 +31,11 @@ func cleanExpireFile(param interface{}) (result bool) {
 		if time.Now().After(value.ExpireTime) {
 			//文件已过期,删除文件,标记文件
 			//删除文件
-			err := common.DeleteFile(value.FilePath)
+			err := uploader.DeleteObject(value.FilePath)
 			if err != nil {
 				common.Log.Errorf("删除文件出错：文件ID：%s，错误信息%s", value.FileId, err.Error())
 				continue
 			}
-			_ = common.DeleteFile(value.FilePath + ".info")
 			cache.DeleteFileOnline(value.ShareId)
 		}
 	}
