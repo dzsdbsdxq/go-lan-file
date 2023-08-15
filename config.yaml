@@ -17,6 +17,8 @@ qiniu:
   bucket: fileski
   down-url: "https://dl.ido.icu"
   callback-url: ""
+  # 文件上传最大限制
+  allow-max-size: 1073741824
   access-key: DlvKNmubXIi3brmIRihwg9AgZASxVyEinRF7LEQl
   secret-key: CEj4bxlfPDND0DH8DiD0V9Q61RS2b6tkykv8D5II
 

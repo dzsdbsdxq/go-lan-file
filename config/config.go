@@ -111,10 +111,11 @@ type RateLimitConfig struct {
 	Capacity     int64 `mapstructure:"capacity" json:"capacity"`
 }
 type QiniuConfig struct {
-	Zone        string `mapstructure:"zone" json:"zone"`
-	Bucket      string `mapstructure:"bucket" json:"bucket"`
-	DownUrl     string `mapstructure:"down-url" json:"down-url"`
-	CallbackUrl string `mapstructure:"callback-url" json:"callback-url"`
-	AccessKey   string `mapstructure:"access-key" json:"access-key"`
-	SecretKey   string `mapstructure:"secret-key" json:"secret-key"`
+	AllowMaxSize int64  `mapstructure:"allow-max-size" json:"allow-max-size"`
+	Zone         string `mapstructure:"zone" json:"zone"`
+	Bucket       string `mapstructure:"bucket" json:"bucket"`
+	DownUrl      string `mapstructure:"down-url" json:"down-url"`
+	CallbackUrl  string `mapstructure:"callback-url" json:"callback-url"`
+	AccessKey    string `mapstructure:"access-key" json:"access-key"`
+	SecretKey    string `mapstructure:"secret-key" json:"secret-key"`
 }

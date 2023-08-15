@@ -18,6 +18,7 @@ func GetQiNiuAccessToken() string {
 	putPolicy := storage.PutPolicy{
 		Scope:            config.Conf.QinNiu.Bucket,
 		CallbackURL:      config.Conf.QinNiu.CallbackUrl,
+		FsizeLimit:       config.Conf.QinNiu.AllowMaxSize,
 		CallbackBody:     `{"key":"$(key)","hash":"$(etag)","fsize":$(fsize),"bucket":"$(bucket)","name":"$(x:name)","uid":"$(x:uid)"}`,
 		CallbackBodyType: "application/json",
 	}
